@@ -1,0 +1,126 @@
+{
+  "n_shot": 10,
+  "rule": "ABB",
+  "n_prompts": 100,
+  "mode": "both",
+  "top_k": 50,
+  "sae_width": "16k",
+  "significant_heads": {
+    "L6H1": {
+      "stage": "symbol_abstraction",
+      "score": 2.2032828330993652
+    },
+    "L10H4": {
+      "stage": "symbol_abstraction",
+      "score": 2.0587120056152344
+    },
+    "L8H1": {
+      "stage": "symbol_abstraction",
+      "score": 2.1770832538604736
+    },
+    "L12H3": {
+      "stage": "symbol_abstraction",
+      "score": 1.5347222089767456
+    },
+    "L6H2": {
+      "stage": "symbol_abstraction",
+      "score": 1.321969747543335
+    },
+    "L11H5": {
+      "stage": "symbol_abstraction",
+      "score": 1.2490530014038086
+    },
+    "L10H5": {
+      "stage": "symbol_abstraction",
+      "score": 0.6114267706871033
+    },
+    "L12H4": {
+      "stage": "symbol_abstraction",
+      "score": 0.6107954382896423
+    },
+    "L13H0": {
+      "stage": "symbol_abstraction",
+      "score": 0.5634469985961914
+    },
+    "L0H1": {
+      "stage": "symbol_abstraction",
+      "score": 0.4397096037864685
+    },
+    "L14H0": {
+      "stage": "symbolic_induction",
+      "score": 10.60669231414795
+    },
+    "L12H1": {
+      "stage": "symbolic_induction",
+      "score": 3.6808712482452393
+    },
+    "L14H1": {
+      "stage": "symbolic_induction",
+      "score": 2.9330809116363525
+    },
+    "L15H0": {
+      "stage": "symbolic_induction",
+      "score": 2.0315656661987305
+    },
+    "L10H3": {
+      "stage": "symbol_abstraction",
+      "score": 0.6196338534355164
+    },
+    "L3H1": {
+      "stage": "symbol_abstraction",
+      "score": 0.5113636255264282
+    },
+    "L12H6": {
+      "stage": "symbol_abstraction",
+      "score": 0.5050504803657532
+    },
+    "L3H2": {
+      "stage": "symbol_abstraction",
+      "score": 0.4179292917251587
+    },
+    "L17H3": {
+      "stage": "symbolic_induction",
+      "score": 2.5757575035095215
+    },
+    "L16H6": {
+      "stage": "symbolic_induction",
+      "score": 1.5912247896194458
+    },
+    "L17H7": {
+      "stage": "symbolic_induction",
+      "score": 1.432449460029602
+    },
+    "L18H6": {
+      "stage": "retrieval",
+      "score": 6.972074508666992
+    },
+    "L22H4": {
+      "stage": "retrieval",
+      "score": 5.012965202331543
+    },
+    "L19H1": {
+      "stage": "retrieval",
+      "score": 2.6402926445007324
+    },
+    "L25H4": {
+      "stage": "retrieval",
+      "score": 1.9996675252914429
+    },
+    "L20H7": {
+      "stage": "retrieval",
+      "score": 2.5465426445007324
+    },
+    "L24H5": {
+      "stage": "retrieval",
+      "score": 1.7446808815002441
+    },
+    "L20H3": {
+      "stage": "retrieval",
+      "score": 1.5262633562088013
+    },
+    "L22H2": {
+      "stage": "retrieval",
+      "score": 1.2905584573745728
+    }
+  }
+}

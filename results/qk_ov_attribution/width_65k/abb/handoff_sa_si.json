@@ -1,0 +1,4516 @@
+[
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 9743,
+        "qk_key_feat": 46921,
+        "cosine_similarity": 0.9125004410743713,
+        "ov_write_score": 0.5335552096366882,
+        "qk_read_score": 0.36098137497901917,
+        "combined_score": 0.17575077249917154,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/9743",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/46921"
+      },
+      {
+        "ov_dest_feat": 14373,
+        "qk_key_feat": 5760,
+        "cosine_similarity": 0.40297967195510864,
+        "ov_write_score": 0.7750559449195862,
+        "qk_read_score": 0.5129529237747192,
+        "combined_score": 0.1602115050891443,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/14373",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/5760"
+      },
+      {
+        "ov_dest_feat": 23892,
+        "qk_key_feat": 22663,
+        "cosine_similarity": 0.36976495385169983,
+        "ov_write_score": 0.4834875762462616,
+        "qk_read_score": 0.5857391953468323,
+        "combined_score": 0.10471655632145137,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/23892",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/22663"
+      },
+      {
+        "ov_dest_feat": 23416,
+        "qk_key_feat": 5760,
+        "cosine_similarity": 0.42609703540802,
+        "ov_write_score": 0.3569084405899048,
+        "qk_read_score": 0.5129529237747192,
+        "combined_score": 0.07800866415284893,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/23416",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/5760"
+      }
+    ],
+    "n_matches_above_threshold": 4,
+    "n_bidirectional": 3,
+    "n_ov_dest_features": 63,
+    "n_qk_key_features": 38,
+    "sae_layer_ov_dest": 6,
+    "sae_layer_qk_key": 13,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      6,
+      1
+    ],
+    "si_head": [
+      14,
+      0
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 9743,
+        "qk_key_feat": 59015,
+        "cosine_similarity": 0.9355672597885132,
+        "ov_write_score": 0.5335552096366882,
+        "qk_read_score": 1.0234125852584839,
+        "combined_score": 0.5108638044735168,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/9743",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/59015"
+      },
+      {
+        "ov_dest_feat": 5696,
+        "qk_key_feat": 32463,
+        "cosine_similarity": 0.6103312969207764,
+        "ov_write_score": 0.4097976088523865,
+        "qk_read_score": 0.5992834568023682,
+        "combined_score": 0.14988816737997618,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/5696",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/32463"
+      },
+      {
+        "ov_dest_feat": 23416,
+        "qk_key_feat": 32463,
+        "cosine_similarity": 0.40636223554611206,
+        "ov_write_score": 0.3569084405899048,
+        "qk_read_score": 0.5992834568023682,
+        "combined_score": 0.08691654387579696,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/23416",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/32463"
+      },
+      {
+        "ov_dest_feat": 1623,
+        "qk_key_feat": 32463,
+        "cosine_similarity": 0.36059021949768066,
+        "ov_write_score": 0.35713985562324524,
+        "qk_read_score": 0.5992834568023682,
+        "combined_score": 0.07717640610924963,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/1623",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/32463"
+      }
+    ],
+    "n_matches_above_threshold": 4,
+    "n_bidirectional": 2,
+    "n_ov_dest_features": 63,
+    "n_qk_key_features": 24,
+    "sae_layer_ov_dest": 6,
+    "sae_layer_qk_key": 11,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      6,
+      1
+    ],
+    "si_head": [
+      12,
+      1
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 9743,
+        "qk_key_feat": 46921,
+        "cosine_similarity": 0.9125004410743713,
+        "ov_write_score": 0.5335552096366882,
+        "qk_read_score": 0.5438024401664734,
+        "combined_score": 0.26476074825674073,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/9743",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/46921"
+      },
+      {
+        "ov_dest_feat": 23892,
+        "qk_key_feat": 22663,
+        "cosine_similarity": 0.36976495385169983,
+        "ov_write_score": 0.4834875762462616,
+        "qk_read_score": 1.0161004066467285,
+        "combined_score": 0.1816551398747832,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/23892",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/22663"
+      },
+      {
+        "ov_dest_feat": 14373,
+        "qk_key_feat": 5760,
+        "cosine_similarity": 0.40297967195510864,
+        "ov_write_score": 0.7750559449195862,
+        "qk_read_score": 0.35042715072631836,
+        "combined_score": 0.10944953940182778,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/14373",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/5760"
+      },
+      {
+        "ov_dest_feat": 23416,
+        "qk_key_feat": 5760,
+        "cosine_similarity": 0.42609703540802,
+        "ov_write_score": 0.3569084405899048,
+        "qk_read_score": 0.35042715072631836,
+        "combined_score": 0.05329213002605836,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/23416",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/5760"
+      }
+    ],
+    "n_matches_above_threshold": 4,
+    "n_bidirectional": 3,
+    "n_ov_dest_features": 63,
+    "n_qk_key_features": 31,
+    "sae_layer_ov_dest": 6,
+    "sae_layer_qk_key": 13,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      6,
+      1
+    ],
+    "si_head": [
+      14,
+      1
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 23892,
+        "qk_key_feat": 49874,
+        "cosine_similarity": 0.3170417547225952,
+        "ov_write_score": 0.4834875762462616,
+        "qk_read_score": 1.5399073362350464,
+        "combined_score": 0.2360458502872536,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/23892",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/49874"
+      },
+      {
+        "ov_dest_feat": 14373,
+        "qk_key_feat": 11074,
+        "cosine_similarity": 0.41350263357162476,
+        "ov_write_score": 0.7750559449195862,
+        "qk_read_score": 0.466834157705307,
+        "combined_score": 0.14961459352859835,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/14373",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/11074"
+      },
+      {
+        "ov_dest_feat": 9743,
+        "qk_key_feat": 19660,
+        "cosine_similarity": 0.9107746481895447,
+        "ov_write_score": 0.5335552096366882,
+        "qk_read_score": 0.27457213401794434,
+        "combined_score": 0.13342793268815673,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/9743",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/19660"
+      },
+      {
+        "ov_dest_feat": 23416,
+        "qk_key_feat": 11074,
+        "cosine_similarity": 0.4501880705356598,
+        "ov_write_score": 0.3569084405899048,
+        "qk_read_score": 0.466834157705307,
+        "combined_score": 0.07500900881639316,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/23416",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/11074"
+      }
+    ],
+    "n_matches_above_threshold": 4,
+    "n_bidirectional": 3,
+    "n_ov_dest_features": 63,
+    "n_qk_key_features": 42,
+    "sae_layer_ov_dest": 6,
+    "sae_layer_qk_key": 14,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      6,
+      1
+    ],
+    "si_head": [
+      15,
+      0
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 38278,
+        "qk_key_feat": 42507,
+        "cosine_similarity": 0.8388568758964539,
+        "ov_write_score": 0.5291820168495178,
+        "qk_read_score": 1.9346712827682495,
+        "combined_score": 0.8588160083964896,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/38278",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/42507"
+      },
+      {
+        "ov_dest_feat": 9743,
+        "qk_key_feat": 52932,
+        "cosine_similarity": 0.38992831110954285,
+        "ov_write_score": 0.5335552096366882,
+        "qk_read_score": 3.117908477783203,
+        "combined_score": 0.6486755015417719,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/9743",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/52932"
+      },
+      {
+        "ov_dest_feat": 14373,
+        "qk_key_feat": 49881,
+        "cosine_similarity": 0.3637336492538452,
+        "ov_write_score": 0.7750559449195862,
+        "qk_read_score": 0.5282147526741028,
+        "combined_score": 0.14891109534268349,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/14373",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/49881"
+      },
+      {
+        "ov_dest_feat": 23416,
+        "qk_key_feat": 49881,
+        "cosine_similarity": 0.35837724804878235,
+        "ov_write_score": 0.3569084405899048,
+        "qk_read_score": 0.5282147526741028,
+        "combined_score": 0.06756282114082054,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/23416",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/49881"
+      }
+    ],
+    "n_matches_above_threshold": 4,
+    "n_bidirectional": 3,
+    "n_ov_dest_features": 63,
+    "n_qk_key_features": 26,
+    "sae_layer_ov_dest": 6,
+    "sae_layer_qk_key": 16,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      6,
+      1
+    ],
+    "si_head": [
+      17,
+      3
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 38278,
+        "qk_key_feat": 46131,
+        "cosine_similarity": 0.8705847859382629,
+        "ov_write_score": 0.5291820168495178,
+        "qk_read_score": 2.0165774822235107,
+        "combined_score": 0.9290328355257502,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/38278",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/15-gemmascope-res-16k/46131"
+      },
+      {
+        "ov_dest_feat": 9743,
+        "qk_key_feat": 36202,
+        "cosine_similarity": 0.350890189409256,
+        "ov_write_score": 0.5335552096366882,
+        "qk_read_score": 2.5936942100524902,
+        "combined_score": 0.4855895847734105,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/9743",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/15-gemmascope-res-16k/36202"
+      },
+      {
+        "ov_dest_feat": 14373,
+        "qk_key_feat": 33608,
+        "cosine_similarity": 0.3974568247795105,
+        "ov_write_score": 0.7750559449195862,
+        "qk_read_score": 0.6119817495346069,
+        "combined_score": 0.18852175815613206,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/14373",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/15-gemmascope-res-16k/33608"
+      },
+      {
+        "ov_dest_feat": 23416,
+        "qk_key_feat": 33608,
+        "cosine_similarity": 0.37320369482040405,
+        "ov_write_score": 0.3569084405899048,
+        "qk_read_score": 0.6119817495346069,
+        "combined_score": 0.08151569287557892,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/23416",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/15-gemmascope-res-16k/33608"
+      }
+    ],
+    "n_matches_above_threshold": 4,
+    "n_bidirectional": 3,
+    "n_ov_dest_features": 63,
+    "n_qk_key_features": 27,
+    "sae_layer_ov_dest": 6,
+    "sae_layer_qk_key": 15,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      6,
+      1
+    ],
+    "si_head": [
+      16,
+      6
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 38278,
+        "qk_key_feat": 42507,
+        "cosine_similarity": 0.8388568758964539,
+        "ov_write_score": 0.5291820168495178,
+        "qk_read_score": 2.2256979942321777,
+        "combined_score": 0.9880050860978861,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/38278",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/42507"
+      },
+      {
+        "ov_dest_feat": 9743,
+        "qk_key_feat": 52932,
+        "cosine_similarity": 0.38992831110954285,
+        "ov_write_score": 0.5335552096366882,
+        "qk_read_score": 1.334000825881958,
+        "combined_score": 0.2775365797142831,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/9743",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/52932"
+      }
+    ],
+    "n_matches_above_threshold": 2,
+    "n_bidirectional": 2,
+    "n_ov_dest_features": 63,
+    "n_qk_key_features": 25,
+    "sae_layer_ov_dest": 6,
+    "sae_layer_qk_key": 16,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      6,
+      1
+    ],
+    "si_head": [
+      17,
+      7
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 57941,
+        "qk_key_feat": 22663,
+        "cosine_similarity": 0.4571281671524048,
+        "ov_write_score": 0.821408748626709,
+        "qk_read_score": 0.5857391953468323,
+        "combined_score": 0.2199386690870419,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/10-gemmascope-res-16k/57941",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/22663"
+      }
+    ],
+    "n_matches_above_threshold": 1,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 72,
+    "n_qk_key_features": 38,
+    "sae_layer_ov_dest": 10,
+    "sae_layer_qk_key": 13,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      10,
+      4
+    ],
+    "si_head": [
+      14,
+      0
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 57941,
+        "qk_key_feat": 32463,
+        "cosine_similarity": 0.6475887298583984,
+        "ov_write_score": 0.821408748626709,
+        "qk_read_score": 0.5992834568023682,
+        "combined_score": 0.3187798744902658,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/10-gemmascope-res-16k/57941",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/32463"
+      }
+    ],
+    "n_matches_above_threshold": 1,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 72,
+    "n_qk_key_features": 24,
+    "sae_layer_ov_dest": 10,
+    "sae_layer_qk_key": 11,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      10,
+      4
+    ],
+    "si_head": [
+      12,
+      1
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 57941,
+        "qk_key_feat": 22663,
+        "cosine_similarity": 0.4571281671524048,
+        "ov_write_score": 0.821408748626709,
+        "qk_read_score": 1.0161004066467285,
+        "combined_score": 0.3815346025535392,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/10-gemmascope-res-16k/57941",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/22663"
+      }
+    ],
+    "n_matches_above_threshold": 1,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 72,
+    "n_qk_key_features": 31,
+    "sae_layer_ov_dest": 10,
+    "sae_layer_qk_key": 13,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      10,
+      4
+    ],
+    "si_head": [
+      14,
+      1
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 57941,
+        "qk_key_feat": 49874,
+        "cosine_similarity": 0.4117676615715027,
+        "ov_write_score": 0.821408748626709,
+        "qk_read_score": 1.5399073362350464,
+        "combined_score": 0.5208421801848344,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/10-gemmascope-res-16k/57941",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/49874"
+      }
+    ],
+    "n_matches_above_threshold": 1,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 72,
+    "n_qk_key_features": 42,
+    "sae_layer_ov_dest": 10,
+    "sae_layer_qk_key": 14,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      10,
+      4
+    ],
+    "si_head": [
+      15,
+      0
+    ]
+  },
+  {
+    "matches": [],
+    "n_matches_above_threshold": 0,
+    "n_bidirectional": 0,
+    "n_ov_dest_features": 72,
+    "n_qk_key_features": 26,
+    "sae_layer_ov_dest": 10,
+    "sae_layer_qk_key": 16,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      10,
+      4
+    ],
+    "si_head": [
+      17,
+      3
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 57941,
+        "qk_key_feat": 52420,
+        "cosine_similarity": 0.3617292046546936,
+        "ov_write_score": 0.821408748626709,
+        "qk_read_score": 0.4109609127044678,
+        "combined_score": 0.12210780228986094,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/10-gemmascope-res-16k/57941",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/15-gemmascope-res-16k/52420"
+      }
+    ],
+    "n_matches_above_threshold": 1,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 72,
+    "n_qk_key_features": 27,
+    "sae_layer_ov_dest": 10,
+    "sae_layer_qk_key": 15,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      10,
+      4
+    ],
+    "si_head": [
+      16,
+      6
+    ]
+  },
+  {
+    "matches": [],
+    "n_matches_above_threshold": 0,
+    "n_bidirectional": 0,
+    "n_ov_dest_features": 72,
+    "n_qk_key_features": 25,
+    "sae_layer_ov_dest": 10,
+    "sae_layer_qk_key": 16,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      10,
+      4
+    ],
+    "si_head": [
+      17,
+      7
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 35922,
+        "qk_key_feat": 22663,
+        "cosine_similarity": 0.42759987711906433,
+        "ov_write_score": 1.3715453147888184,
+        "qk_read_score": 0.5857391953468323,
+        "combined_score": 0.34351999354208,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/8-gemmascope-res-16k/35922",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/22663"
+      }
+    ],
+    "n_matches_above_threshold": 1,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 74,
+    "n_qk_key_features": 38,
+    "sae_layer_ov_dest": 8,
+    "sae_layer_qk_key": 13,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      8,
+      1
+    ],
+    "si_head": [
+      14,
+      0
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 35922,
+        "qk_key_feat": 32463,
+        "cosine_similarity": 0.3851437270641327,
+        "ov_write_score": 1.3715453147888184,
+        "qk_read_score": 0.5992834568023682,
+        "combined_score": 0.31656673635997234,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/8-gemmascope-res-16k/35922",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/32463"
+      }
+    ],
+    "n_matches_above_threshold": 1,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 74,
+    "n_qk_key_features": 24,
+    "sae_layer_ov_dest": 8,
+    "sae_layer_qk_key": 11,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      8,
+      1
+    ],
+    "si_head": [
+      12,
+      1
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 35922,
+        "qk_key_feat": 22663,
+        "cosine_similarity": 0.42759987711906433,
+        "ov_write_score": 1.3715453147888184,
+        "qk_read_score": 1.0161004066467285,
+        "combined_score": 0.5959150555439721,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/8-gemmascope-res-16k/35922",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/22663"
+      }
+    ],
+    "n_matches_above_threshold": 1,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 74,
+    "n_qk_key_features": 31,
+    "sae_layer_ov_dest": 8,
+    "sae_layer_qk_key": 13,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      8,
+      1
+    ],
+    "si_head": [
+      14,
+      1
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 35922,
+        "qk_key_feat": 49874,
+        "cosine_similarity": 0.3889886438846588,
+        "ov_write_score": 1.3715453147888184,
+        "qk_read_score": 1.5399073362350464,
+        "combined_score": 0.8215645125604203,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/8-gemmascope-res-16k/35922",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/49874"
+      }
+    ],
+    "n_matches_above_threshold": 1,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 74,
+    "n_qk_key_features": 42,
+    "sae_layer_ov_dest": 8,
+    "sae_layer_qk_key": 14,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      8,
+      1
+    ],
+    "si_head": [
+      15,
+      0
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 35922,
+        "qk_key_feat": 53574,
+        "cosine_similarity": 0.3040134012699127,
+        "ov_write_score": 1.3715453147888184,
+        "qk_read_score": 0.6504645943641663,
+        "combined_score": 0.27122302254947683,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/8-gemmascope-res-16k/35922",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/53574"
+      }
+    ],
+    "n_matches_above_threshold": 1,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 74,
+    "n_qk_key_features": 26,
+    "sae_layer_ov_dest": 8,
+    "sae_layer_qk_key": 16,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      8,
+      1
+    ],
+    "si_head": [
+      17,
+      3
+    ]
+  },
+  {
+    "matches": [],
+    "n_matches_above_threshold": 0,
+    "n_bidirectional": 0,
+    "n_ov_dest_features": 74,
+    "n_qk_key_features": 27,
+    "sae_layer_ov_dest": 8,
+    "sae_layer_qk_key": 15,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      8,
+      1
+    ],
+    "si_head": [
+      16,
+      6
+    ]
+  },
+  {
+    "matches": [],
+    "n_matches_above_threshold": 0,
+    "n_bidirectional": 0,
+    "n_ov_dest_features": 74,
+    "n_qk_key_features": 25,
+    "sae_layer_ov_dest": 8,
+    "sae_layer_qk_key": 16,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      8,
+      1
+    ],
+    "si_head": [
+      17,
+      7
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 3403,
+        "qk_key_feat": 26553,
+        "cosine_similarity": 0.3738868534564972,
+        "ov_write_score": 0.7953835129737854,
+        "qk_read_score": 0.2694128751754761,
+        "combined_score": 0.08011892731896086,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/3403",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/26553"
+      }
+    ],
+    "n_matches_above_threshold": 1,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 83,
+    "n_qk_key_features": 38,
+    "sae_layer_ov_dest": 12,
+    "sae_layer_qk_key": 13,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      12,
+      3
+    ],
+    "si_head": [
+      14,
+      0
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 15564,
+        "qk_key_feat": 11538,
+        "cosine_similarity": 0.8598871231079102,
+        "ov_write_score": 0.45976904034614563,
+        "qk_read_score": 0.7025763392448425,
+        "combined_score": 0.277763188552179,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/15564",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/11538"
+      },
+      {
+        "ov_dest_feat": 60499,
+        "qk_key_feat": 2948,
+        "cosine_similarity": 0.8780137300491333,
+        "ov_write_score": 0.4941723942756653,
+        "qk_read_score": 0.5265902280807495,
+        "combined_score": 0.2284823115682907,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/60499",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/2948"
+      },
+      {
+        "ov_dest_feat": 59679,
+        "qk_key_feat": 2948,
+        "cosine_similarity": 0.4288221597671509,
+        "ov_write_score": 0.48391711711883545,
+        "qk_read_score": 0.5265902280807495,
+        "combined_score": 0.10927504643787685,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/59679",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/2948"
+      },
+      {
+        "ov_dest_feat": 3403,
+        "qk_key_feat": 33747,
+        "cosine_similarity": 0.4043404459953308,
+        "ov_write_score": 0.7953835129737854,
+        "qk_read_score": 0.3006725311279297,
+        "combined_score": 0.09669800717250733,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/3403",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/33747"
+      }
+    ],
+    "n_matches_above_threshold": 4,
+    "n_bidirectional": 3,
+    "n_ov_dest_features": 83,
+    "n_qk_key_features": 24,
+    "sae_layer_ov_dest": 12,
+    "sae_layer_qk_key": 11,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      12,
+      3
+    ],
+    "si_head": [
+      12,
+      1
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 3403,
+        "qk_key_feat": 26553,
+        "cosine_similarity": 0.3738868534564972,
+        "ov_write_score": 0.7953835129737854,
+        "qk_read_score": 0.39347127079963684,
+        "combined_score": 0.11701183964115484,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/3403",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/26553"
+      }
+    ],
+    "n_matches_above_threshold": 1,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 83,
+    "n_qk_key_features": 31,
+    "sae_layer_ov_dest": 12,
+    "sae_layer_qk_key": 13,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      12,
+      3
+    ],
+    "si_head": [
+      14,
+      1
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 3403,
+        "qk_key_feat": 19455,
+        "cosine_similarity": 0.5104774236679077,
+        "ov_write_score": 0.7953835129737854,
+        "qk_read_score": 0.607279360294342,
+        "combined_score": 0.24657080055891817,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/3403",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/19455"
+      },
+      {
+        "ov_dest_feat": 15564,
+        "qk_key_feat": 45982,
+        "cosine_similarity": 0.9175053834915161,
+        "ov_write_score": 0.45976904034614563,
+        "qk_read_score": 0.5736002326011658,
+        "combined_score": 0.24196784888923792,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/15564",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/45982"
+      },
+      {
+        "ov_dest_feat": 21331,
+        "qk_key_feat": 65429,
+        "cosine_similarity": 0.8134396076202393,
+        "ov_write_score": 0.4507209062576294,
+        "qk_read_score": 0.4732288122177124,
+        "combined_score": 0.1735018845565339,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/21331",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/65429"
+      },
+      {
+        "ov_dest_feat": 63543,
+        "qk_key_feat": 54526,
+        "cosine_similarity": 0.350836843252182,
+        "ov_write_score": 0.43816617131233215,
+        "qk_read_score": 0.9971780776977539,
+        "combined_score": 0.15329103681897122,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/63543",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/54526"
+      },
+      {
+        "ov_dest_feat": 60499,
+        "qk_key_feat": 37922,
+        "cosine_similarity": 0.3296774923801422,
+        "ov_write_score": 0.4941723942756653,
+        "qk_read_score": 0.8984745740890503,
+        "combined_score": 0.14637724557359305,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/60499",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/37922"
+      }
+    ],
+    "n_matches_above_threshold": 5,
+    "n_bidirectional": 5,
+    "n_ov_dest_features": 83,
+    "n_qk_key_features": 42,
+    "sae_layer_ov_dest": 12,
+    "sae_layer_qk_key": 14,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      12,
+      3
+    ],
+    "si_head": [
+      15,
+      0
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 15564,
+        "qk_key_feat": 11005,
+        "cosine_similarity": 0.8685359954833984,
+        "ov_write_score": 0.45976904034614563,
+        "qk_read_score": 1.5481585264205933,
+        "combined_score": 0.6182198915746759,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/15564",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/11005"
+      },
+      {
+        "ov_dest_feat": 21331,
+        "qk_key_feat": 50683,
+        "cosine_similarity": 0.8529742956161499,
+        "ov_write_score": 0.4507209062576294,
+        "qk_read_score": 0.9371918439865112,
+        "combined_score": 0.3603065417027146,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/21331",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/50683"
+      },
+      {
+        "ov_dest_feat": 63543,
+        "qk_key_feat": 1556,
+        "cosine_similarity": 0.375176340341568,
+        "ov_write_score": 0.43816617131233215,
+        "qk_read_score": 0.9733541011810303,
+        "combined_score": 0.16000927248249214,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/63543",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/1556"
+      }
+    ],
+    "n_matches_above_threshold": 3,
+    "n_bidirectional": 3,
+    "n_ov_dest_features": 83,
+    "n_qk_key_features": 26,
+    "sae_layer_ov_dest": 12,
+    "sae_layer_qk_key": 16,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      12,
+      3
+    ],
+    "si_head": [
+      17,
+      3
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 15564,
+        "qk_key_feat": 4643,
+        "cosine_similarity": 0.8748102784156799,
+        "ov_write_score": 0.45976904034614563,
+        "qk_read_score": 0.7956986427307129,
+        "combined_score": 0.3200384939120653,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/15564",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/15-gemmascope-res-16k/4643"
+      }
+    ],
+    "n_matches_above_threshold": 1,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 83,
+    "n_qk_key_features": 27,
+    "sae_layer_ov_dest": 12,
+    "sae_layer_qk_key": 15,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      12,
+      3
+    ],
+    "si_head": [
+      16,
+      6
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 15564,
+        "qk_key_feat": 11005,
+        "cosine_similarity": 0.8685359954833984,
+        "ov_write_score": 0.45976904034614563,
+        "qk_read_score": 0.6005097031593323,
+        "combined_score": 0.2397991143936931,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/15564",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/11005"
+      },
+      {
+        "ov_dest_feat": 21331,
+        "qk_key_feat": 50683,
+        "cosine_similarity": 0.8529742956161499,
+        "ov_write_score": 0.4507209062576294,
+        "qk_read_score": 0.31981661915779114,
+        "combined_score": 0.12295456983240283,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/21331",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/50683"
+      }
+    ],
+    "n_matches_above_threshold": 2,
+    "n_bidirectional": 2,
+    "n_ov_dest_features": 83,
+    "n_qk_key_features": 25,
+    "sae_layer_ov_dest": 12,
+    "sae_layer_qk_key": 16,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      12,
+      3
+    ],
+    "si_head": [
+      17,
+      7
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 23892,
+        "qk_key_feat": 22663,
+        "cosine_similarity": 0.36976495385169983,
+        "ov_write_score": 1.8964558839797974,
+        "qk_read_score": 0.5857391953468323,
+        "combined_score": 0.4107454651218741,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/23892",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/22663"
+      },
+      {
+        "ov_dest_feat": 57554,
+        "qk_key_feat": 56726,
+        "cosine_similarity": 0.4824478328227997,
+        "ov_write_score": 1.0595825910568237,
+        "qk_read_score": 0.5615513920783997,
+        "combined_score": 0.28706132313574484,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/57554",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/56726"
+      }
+    ],
+    "n_matches_above_threshold": 2,
+    "n_bidirectional": 2,
+    "n_ov_dest_features": 76,
+    "n_qk_key_features": 38,
+    "sae_layer_ov_dest": 6,
+    "sae_layer_qk_key": 13,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      6,
+      2
+    ],
+    "si_head": [
+      14,
+      0
+    ]
+  },
+  {
+    "matches": [],
+    "n_matches_above_threshold": 0,
+    "n_bidirectional": 0,
+    "n_ov_dest_features": 76,
+    "n_qk_key_features": 24,
+    "sae_layer_ov_dest": 6,
+    "sae_layer_qk_key": 11,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      6,
+      2
+    ],
+    "si_head": [
+      12,
+      1
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 23892,
+        "qk_key_feat": 22663,
+        "cosine_similarity": 0.36976495385169983,
+        "ov_write_score": 1.8964558839797974,
+        "qk_read_score": 1.0161004066467285,
+        "combined_score": 0.7125332186307021,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/23892",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/22663"
+      },
+      {
+        "ov_dest_feat": 57554,
+        "qk_key_feat": 56726,
+        "cosine_similarity": 0.4824478328227997,
+        "ov_write_score": 1.0595825910568237,
+        "qk_read_score": 0.7916935086250305,
+        "combined_score": 0.4047084368587096,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/57554",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/56726"
+      }
+    ],
+    "n_matches_above_threshold": 2,
+    "n_bidirectional": 2,
+    "n_ov_dest_features": 76,
+    "n_qk_key_features": 31,
+    "sae_layer_ov_dest": 6,
+    "sae_layer_qk_key": 13,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      6,
+      2
+    ],
+    "si_head": [
+      14,
+      1
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 23892,
+        "qk_key_feat": 49874,
+        "cosine_similarity": 0.3170417547225952,
+        "ov_write_score": 1.8964558839797974,
+        "qk_read_score": 1.5399073362350464,
+        "combined_score": 0.9258780652478819,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/23892",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/49874"
+      }
+    ],
+    "n_matches_above_threshold": 1,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 76,
+    "n_qk_key_features": 42,
+    "sae_layer_ov_dest": 6,
+    "sae_layer_qk_key": 14,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      6,
+      2
+    ],
+    "si_head": [
+      15,
+      0
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 57554,
+        "qk_key_feat": 52932,
+        "cosine_similarity": 0.3269222676753998,
+        "ov_write_score": 1.0595825910568237,
+        "qk_read_score": 3.117908477783203,
+        "combined_score": 1.080047061900473,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/57554",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/52932"
+      }
+    ],
+    "n_matches_above_threshold": 1,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 76,
+    "n_qk_key_features": 26,
+    "sae_layer_ov_dest": 6,
+    "sae_layer_qk_key": 16,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      6,
+      2
+    ],
+    "si_head": [
+      17,
+      3
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 57554,
+        "qk_key_feat": 59349,
+        "cosine_similarity": 0.411477267742157,
+        "ov_write_score": 1.0595825910568237,
+        "qk_read_score": 1.3282904624938965,
+        "combined_score": 0.5791268705042008,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/57554",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/15-gemmascope-res-16k/59349"
+      }
+    ],
+    "n_matches_above_threshold": 1,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 76,
+    "n_qk_key_features": 27,
+    "sae_layer_ov_dest": 6,
+    "sae_layer_qk_key": 15,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      6,
+      2
+    ],
+    "si_head": [
+      16,
+      6
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 57554,
+        "qk_key_feat": 52932,
+        "cosine_similarity": 0.3269222676753998,
+        "ov_write_score": 1.0595825910568237,
+        "qk_read_score": 1.334000825881958,
+        "combined_score": 0.46209941145898986,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/57554",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/52932"
+      },
+      {
+        "ov_dest_feat": 64700,
+        "qk_key_feat": 30655,
+        "cosine_similarity": 0.4661133289337158,
+        "ov_write_score": 1.0791996717453003,
+        "qk_read_score": 0.2672046422958374,
+        "combined_score": 0.13441177795360842,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/6-gemmascope-res-16k/64700",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/30655"
+      }
+    ],
+    "n_matches_above_threshold": 2,
+    "n_bidirectional": 2,
+    "n_ov_dest_features": 76,
+    "n_qk_key_features": 25,
+    "sae_layer_ov_dest": 6,
+    "sae_layer_qk_key": 16,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      6,
+      2
+    ],
+    "si_head": [
+      17,
+      7
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 32463,
+        "qk_key_feat": 22663,
+        "cosine_similarity": 0.44069191813468933,
+        "ov_write_score": 1.6128172874450684,
+        "qk_read_score": 0.5857391953468323,
+        "combined_score": 0.41631738043376165,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/32463",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/22663"
+      },
+      {
+        "ov_dest_feat": 44773,
+        "qk_key_feat": 34209,
+        "cosine_similarity": 0.43424737453460693,
+        "ov_write_score": 0.8666390776634216,
+        "qk_read_score": 0.6945140361785889,
+        "combined_score": 0.2613704566240237,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/44773",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/34209"
+      },
+      {
+        "ov_dest_feat": 24605,
+        "qk_key_feat": 22663,
+        "cosine_similarity": 0.31609824299812317,
+        "ov_write_score": 0.883945107460022,
+        "qk_read_score": 0.5857391953468323,
+        "combined_score": 0.16366343594993985,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/24605",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/22663"
+      }
+    ],
+    "n_matches_above_threshold": 3,
+    "n_bidirectional": 2,
+    "n_ov_dest_features": 52,
+    "n_qk_key_features": 38,
+    "sae_layer_ov_dest": 11,
+    "sae_layer_qk_key": 13,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      11,
+      5
+    ],
+    "si_head": [
+      14,
+      0
+    ]
+  },
+  {
+    "overlapping_features": [
+      {
+        "feature": 32463,
+        "ov_write_score": 1.6128172874450684,
+        "qk_read_score": 0.5992834568023682,
+        "combined_score": 0.9665347192106992
+      },
+      {
+        "feature": 47184,
+        "ov_write_score": 1.1342107057571411,
+        "qk_read_score": 0.36732807755470276,
+        "combined_score": 0.4166274380877333
+      },
+      {
+        "feature": 44773,
+        "ov_write_score": 0.8666390776634216,
+        "qk_read_score": 0.4549664855003357,
+        "combined_score": 0.3942917353617794
+      }
+    ],
+    "n_ov_dest_features": 52,
+    "n_qk_key_features": 24,
+    "n_shared": 3,
+    "jaccard": 0.0410958904109589,
+    "method": "exact_match",
+    "sa_head": [
+      11,
+      5
+    ],
+    "si_head": [
+      12,
+      1
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 32463,
+        "qk_key_feat": 22663,
+        "cosine_similarity": 0.44069191813468933,
+        "ov_write_score": 1.6128172874450684,
+        "qk_read_score": 1.0161004066467285,
+        "combined_score": 0.7221989972898503,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/32463",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/22663"
+      },
+      {
+        "ov_dest_feat": 24605,
+        "qk_key_feat": 22663,
+        "cosine_similarity": 0.31609824299812317,
+        "ov_write_score": 0.883945107460022,
+        "qk_read_score": 1.0161004066467285,
+        "combined_score": 0.2839121662730198,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/24605",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/22663"
+      },
+      {
+        "ov_dest_feat": 44773,
+        "qk_key_feat": 34209,
+        "cosine_similarity": 0.43424737453460693,
+        "ov_write_score": 0.8666390776634216,
+        "qk_read_score": 0.6216982007026672,
+        "combined_score": 0.23396725499469406,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/44773",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/34209"
+      }
+    ],
+    "n_matches_above_threshold": 3,
+    "n_bidirectional": 2,
+    "n_ov_dest_features": 52,
+    "n_qk_key_features": 31,
+    "sae_layer_ov_dest": 11,
+    "sae_layer_qk_key": 13,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      11,
+      5
+    ],
+    "si_head": [
+      14,
+      1
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 32463,
+        "qk_key_feat": 49874,
+        "cosine_similarity": 0.43273961544036865,
+        "ov_write_score": 1.6128172874450684,
+        "qk_read_score": 1.5399073362350464,
+        "combined_score": 1.0747474236113765,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/32463",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/49874"
+      },
+      {
+        "ov_dest_feat": 44773,
+        "qk_key_feat": 40543,
+        "cosine_similarity": 0.4966680705547333,
+        "ov_write_score": 0.8666390776634216,
+        "qk_read_score": 0.6890810132026672,
+        "combined_score": 0.2966024901265171,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/44773",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/40543"
+      }
+    ],
+    "n_matches_above_threshold": 2,
+    "n_bidirectional": 2,
+    "n_ov_dest_features": 52,
+    "n_qk_key_features": 42,
+    "sae_layer_ov_dest": 11,
+    "sae_layer_qk_key": 14,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      11,
+      5
+    ],
+    "si_head": [
+      15,
+      0
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 32463,
+        "qk_key_feat": 49881,
+        "cosine_similarity": 0.32236331701278687,
+        "ov_write_score": 1.6128172874450684,
+        "qk_read_score": 0.5282147526741028,
+        "combined_score": 0.27462578564771634,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/32463",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/49881"
+      }
+    ],
+    "n_matches_above_threshold": 1,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 52,
+    "n_qk_key_features": 26,
+    "sae_layer_ov_dest": 11,
+    "sae_layer_qk_key": 16,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      11,
+      5
+    ],
+    "si_head": [
+      17,
+      3
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 32463,
+        "qk_key_feat": 35707,
+        "cosine_similarity": 0.3951997756958008,
+        "ov_write_score": 1.6128172874450684,
+        "qk_read_score": 0.6196760535240173,
+        "combined_score": 0.3949722401123033,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/32463",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/15-gemmascope-res-16k/35707"
+      },
+      {
+        "ov_dest_feat": 44773,
+        "qk_key_feat": 35707,
+        "cosine_similarity": 0.3112647831439972,
+        "ov_write_score": 0.8666390776634216,
+        "qk_read_score": 0.6196760535240173,
+        "combined_score": 0.1671602333048397,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/44773",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/15-gemmascope-res-16k/35707"
+      }
+    ],
+    "n_matches_above_threshold": 2,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 52,
+    "n_qk_key_features": 27,
+    "sae_layer_ov_dest": 11,
+    "sae_layer_qk_key": 15,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      11,
+      5
+    ],
+    "si_head": [
+      16,
+      6
+    ]
+  },
+  {
+    "matches": [],
+    "n_matches_above_threshold": 0,
+    "n_bidirectional": 0,
+    "n_ov_dest_features": 52,
+    "n_qk_key_features": 25,
+    "sae_layer_ov_dest": 11,
+    "sae_layer_qk_key": 16,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      11,
+      5
+    ],
+    "si_head": [
+      17,
+      7
+    ]
+  },
+  {
+    "matches": [],
+    "n_matches_above_threshold": 0,
+    "n_bidirectional": 0,
+    "n_ov_dest_features": 82,
+    "n_qk_key_features": 38,
+    "sae_layer_ov_dest": 10,
+    "sae_layer_qk_key": 13,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      10,
+      5
+    ],
+    "si_head": [
+      14,
+      0
+    ]
+  },
+  {
+    "matches": [],
+    "n_matches_above_threshold": 0,
+    "n_bidirectional": 0,
+    "n_ov_dest_features": 82,
+    "n_qk_key_features": 24,
+    "sae_layer_ov_dest": 10,
+    "sae_layer_qk_key": 11,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      10,
+      5
+    ],
+    "si_head": [
+      12,
+      1
+    ]
+  },
+  {
+    "matches": [],
+    "n_matches_above_threshold": 0,
+    "n_bidirectional": 0,
+    "n_ov_dest_features": 82,
+    "n_qk_key_features": 31,
+    "sae_layer_ov_dest": 10,
+    "sae_layer_qk_key": 13,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      10,
+      5
+    ],
+    "si_head": [
+      14,
+      1
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 52311,
+        "qk_key_feat": 26037,
+        "cosine_similarity": 0.7729736566543579,
+        "ov_write_score": 0.6168717741966248,
+        "qk_read_score": 0.41486239433288574,
+        "combined_score": 0.19781702295081574,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/10-gemmascope-res-16k/52311",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/26037"
+      },
+      {
+        "ov_dest_feat": 55086,
+        "qk_key_feat": 54893,
+        "cosine_similarity": 0.7926574945449829,
+        "ov_write_score": 0.603512704372406,
+        "qk_read_score": 0.4054669439792633,
+        "combined_score": 0.19396681774272942,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/10-gemmascope-res-16k/55086",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/54893"
+      },
+      {
+        "ov_dest_feat": 61290,
+        "qk_key_feat": 40491,
+        "cosine_similarity": 0.6568819284439087,
+        "ov_write_score": 0.6102845072746277,
+        "qk_read_score": 0.31351757049560547,
+        "combined_score": 0.12568444862165426,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/10-gemmascope-res-16k/61290",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/40491"
+      },
+      {
+        "ov_dest_feat": 38681,
+        "qk_key_feat": 26782,
+        "cosine_similarity": 0.7309960722923279,
+        "ov_write_score": 0.48096704483032227,
+        "qk_read_score": 0.31859534978866577,
+        "combined_score": 0.11201335264177405,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/10-gemmascope-res-16k/38681",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/26782"
+      }
+    ],
+    "n_matches_above_threshold": 4,
+    "n_bidirectional": 4,
+    "n_ov_dest_features": 82,
+    "n_qk_key_features": 42,
+    "sae_layer_ov_dest": 10,
+    "sae_layer_qk_key": 14,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      10,
+      5
+    ],
+    "si_head": [
+      15,
+      0
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 52311,
+        "qk_key_feat": 46430,
+        "cosine_similarity": 0.8524485230445862,
+        "ov_write_score": 0.6168717741966248,
+        "qk_read_score": 0.850357174873352,
+        "combined_score": 0.4471615388174554,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/10-gemmascope-res-16k/52311",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/46430"
+      },
+      {
+        "ov_dest_feat": 60447,
+        "qk_key_feat": 1556,
+        "cosine_similarity": 0.7245807647705078,
+        "ov_write_score": 0.6130326390266418,
+        "qk_read_score": 0.9733541011810303,
+        "combined_score": 0.4323557724288448,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/10-gemmascope-res-16k/60447",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/1556"
+      },
+      {
+        "ov_dest_feat": 55086,
+        "qk_key_feat": 27521,
+        "cosine_similarity": 0.8669396638870239,
+        "ov_write_score": 0.603512704372406,
+        "qk_read_score": 0.5271178483963013,
+        "combined_score": 0.27579285562273814,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/10-gemmascope-res-16k/55086",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/27521"
+      },
+      {
+        "ov_dest_feat": 61290,
+        "qk_key_feat": 31689,
+        "cosine_similarity": 0.7204160094261169,
+        "ov_write_score": 0.6102845072746277,
+        "qk_read_score": 0.5850080251693726,
+        "combined_score": 0.2572038850028113,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/10-gemmascope-res-16k/61290",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/31689"
+      },
+      {
+        "ov_dest_feat": 51378,
+        "qk_key_feat": 1556,
+        "cosine_similarity": 0.3383859395980835,
+        "ov_write_score": 0.47921958565711975,
+        "qk_read_score": 0.9733541011810303,
+        "combined_score": 0.15784023964442775,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/10-gemmascope-res-16k/51378",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/1556"
+      },
+      {
+        "ov_dest_feat": 38681,
+        "qk_key_feat": 31689,
+        "cosine_similarity": 0.3326994478702545,
+        "ov_write_score": 0.48096704483032227,
+        "qk_read_score": 0.5850080251693726,
+        "combined_score": 0.09361150426872056,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/10-gemmascope-res-16k/38681",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/31689"
+      }
+    ],
+    "n_matches_above_threshold": 6,
+    "n_bidirectional": 4,
+    "n_ov_dest_features": 82,
+    "n_qk_key_features": 26,
+    "sae_layer_ov_dest": 10,
+    "sae_layer_qk_key": 16,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      10,
+      5
+    ],
+    "si_head": [
+      17,
+      3
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 17328,
+        "qk_key_feat": 38550,
+        "cosine_similarity": 0.3427485227584839,
+        "ov_write_score": 0.6123987436294556,
+        "qk_read_score": 0.5552069544792175,
+        "combined_score": 0.11653725390811245,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/10-gemmascope-res-16k/17328",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/15-gemmascope-res-16k/38550"
+      }
+    ],
+    "n_matches_above_threshold": 1,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 82,
+    "n_qk_key_features": 27,
+    "sae_layer_ov_dest": 10,
+    "sae_layer_qk_key": 15,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      10,
+      5
+    ],
+    "si_head": [
+      16,
+      6
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 52311,
+        "qk_key_feat": 46430,
+        "cosine_similarity": 0.8524485230445862,
+        "ov_write_score": 0.6168717741966248,
+        "qk_read_score": 0.27630290389060974,
+        "combined_score": 0.14529427790370295,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/10-gemmascope-res-16k/52311",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/46430"
+      }
+    ],
+    "n_matches_above_threshold": 1,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 82,
+    "n_qk_key_features": 25,
+    "sae_layer_ov_dest": 10,
+    "sae_layer_qk_key": 16,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      10,
+      5
+    ],
+    "si_head": [
+      17,
+      7
+    ]
+  },
+  {
+    "matches": [],
+    "n_matches_above_threshold": 0,
+    "n_bidirectional": 0,
+    "n_ov_dest_features": 99,
+    "n_qk_key_features": 38,
+    "sae_layer_ov_dest": 12,
+    "sae_layer_qk_key": 13,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      12,
+      4
+    ],
+    "si_head": [
+      14,
+      0
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 8933,
+        "qk_key_feat": 32463,
+        "cosine_similarity": 0.3642594516277313,
+        "ov_write_score": 0.45954155921936035,
+        "qk_read_score": 0.5992834568023682,
+        "combined_score": 0.10031546996255176,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/8933",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/32463"
+      },
+      {
+        "ov_dest_feat": 19741,
+        "qk_key_feat": 32463,
+        "cosine_similarity": 0.33284103870391846,
+        "ov_write_score": 0.40887725353240967,
+        "qk_read_score": 0.5992834568023682,
+        "combined_score": 0.0815571626875862,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/19741",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/32463"
+      }
+    ],
+    "n_matches_above_threshold": 2,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 99,
+    "n_qk_key_features": 24,
+    "sae_layer_ov_dest": 12,
+    "sae_layer_qk_key": 11,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      12,
+      4
+    ],
+    "si_head": [
+      12,
+      1
+    ]
+  },
+  {
+    "matches": [],
+    "n_matches_above_threshold": 0,
+    "n_bidirectional": 0,
+    "n_ov_dest_features": 99,
+    "n_qk_key_features": 31,
+    "sae_layer_ov_dest": 12,
+    "sae_layer_qk_key": 13,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      12,
+      4
+    ],
+    "si_head": [
+      14,
+      1
+    ]
+  },
+  {
+    "matches": [],
+    "n_matches_above_threshold": 0,
+    "n_bidirectional": 0,
+    "n_ov_dest_features": 99,
+    "n_qk_key_features": 42,
+    "sae_layer_ov_dest": 12,
+    "sae_layer_qk_key": 14,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      12,
+      4
+    ],
+    "si_head": [
+      15,
+      0
+    ]
+  },
+  {
+    "matches": [],
+    "n_matches_above_threshold": 0,
+    "n_bidirectional": 0,
+    "n_ov_dest_features": 99,
+    "n_qk_key_features": 26,
+    "sae_layer_ov_dest": 12,
+    "sae_layer_qk_key": 16,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      12,
+      4
+    ],
+    "si_head": [
+      17,
+      3
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 8933,
+        "qk_key_feat": 35707,
+        "cosine_similarity": 0.3465396761894226,
+        "ov_write_score": 0.45954155921936035,
+        "qk_read_score": 0.6196760535240173,
+        "combined_score": 0.09868302926255834,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/8933",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/15-gemmascope-res-16k/35707"
+      },
+      {
+        "ov_dest_feat": 53952,
+        "qk_key_feat": 52420,
+        "cosine_similarity": 0.34932413697242737,
+        "ov_write_score": 0.5194345712661743,
+        "qk_read_score": 0.4109609127044678,
+        "combined_score": 0.0745692822648488,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/53952",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/15-gemmascope-res-16k/52420"
+      }
+    ],
+    "n_matches_above_threshold": 2,
+    "n_bidirectional": 2,
+    "n_ov_dest_features": 99,
+    "n_qk_key_features": 27,
+    "sae_layer_ov_dest": 12,
+    "sae_layer_qk_key": 15,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      12,
+      4
+    ],
+    "si_head": [
+      16,
+      6
+    ]
+  },
+  {
+    "matches": [],
+    "n_matches_above_threshold": 0,
+    "n_bidirectional": 0,
+    "n_ov_dest_features": 99,
+    "n_qk_key_features": 25,
+    "sae_layer_ov_dest": 12,
+    "sae_layer_qk_key": 16,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      12,
+      4
+    ],
+    "si_head": [
+      17,
+      7
+    ]
+  },
+  {
+    "overlapping_features": [
+      {
+        "feature": 39075,
+        "ov_write_score": 2.629387855529785,
+        "qk_read_score": 1.6239889860153198,
+        "combined_score": 4.270096917342812
+      }
+    ],
+    "n_ov_dest_features": 92,
+    "n_qk_key_features": 38,
+    "n_shared": 1,
+    "jaccard": 0.007751937984496124,
+    "method": "exact_match",
+    "sa_head": [
+      13,
+      0
+    ],
+    "si_head": [
+      14,
+      0
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 8320,
+        "qk_key_feat": 60043,
+        "cosine_similarity": 0.3066186308860779,
+        "ov_write_score": 1.6044831275939941,
+        "qk_read_score": 0.40969982743263245,
+        "combined_score": 0.20155773792073622,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/8320",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/60043"
+      }
+    ],
+    "n_matches_above_threshold": 1,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 92,
+    "n_qk_key_features": 24,
+    "sae_layer_ov_dest": 13,
+    "sae_layer_qk_key": 11,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      13,
+      0
+    ],
+    "si_head": [
+      12,
+      1
+    ]
+  },
+  {
+    "overlapping_features": [
+      {
+        "feature": 39075,
+        "ov_write_score": 2.629387855529785,
+        "qk_read_score": 0.35209783911705017,
+        "combined_score": 0.9258017821326519
+      }
+    ],
+    "n_ov_dest_features": 92,
+    "n_qk_key_features": 31,
+    "n_shared": 1,
+    "jaccard": 0.00819672131147541,
+    "method": "exact_match",
+    "sa_head": [
+      13,
+      0
+    ],
+    "si_head": [
+      14,
+      1
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 39075,
+        "qk_key_feat": 48097,
+        "cosine_similarity": 0.7984893918037415,
+        "ov_write_score": 2.629387855529785,
+        "qk_read_score": 4.542329788208008,
+        "combined_score": 9.536795405080591,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/39075",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/48097"
+      },
+      {
+        "ov_dest_feat": 8320,
+        "qk_key_feat": 48097,
+        "cosine_similarity": 0.4000745415687561,
+        "ov_write_score": 1.6044831275939941,
+        "qk_read_score": 4.542329788208008,
+        "combined_score": 2.9157798678329714,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/8320",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/48097"
+      },
+      {
+        "ov_dest_feat": 25124,
+        "qk_key_feat": 48097,
+        "cosine_similarity": 0.30887937545776367,
+        "ov_write_score": 1.902785301208496,
+        "qk_read_score": 4.542329788208008,
+        "combined_score": 2.6696686440913093,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/25124",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/48097"
+      },
+      {
+        "ov_dest_feat": 35789,
+        "qk_key_feat": 48097,
+        "cosine_similarity": 0.35981690883636475,
+        "ov_write_score": 1.3500916957855225,
+        "qk_read_score": 4.542329788208008,
+        "combined_score": 2.2065994037057988,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/35789",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/48097"
+      },
+      {
+        "ov_dest_feat": 34360,
+        "qk_key_feat": 48097,
+        "cosine_similarity": 0.30316081643104553,
+        "ov_write_score": 1.2892837524414062,
+        "qk_read_score": 4.542329788208008,
+        "combined_score": 1.7754164518593094,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/34360",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/48097"
+      },
+      {
+        "ov_dest_feat": 48855,
+        "qk_key_feat": 35622,
+        "cosine_similarity": 0.3875187933444977,
+        "ov_write_score": 1.0175065994262695,
+        "qk_read_score": 0.9819341897964478,
+        "combined_score": 0.38717952774033576,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/48855",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/35622"
+      },
+      {
+        "ov_dest_feat": 48671,
+        "qk_key_feat": 40543,
+        "cosine_similarity": 0.30765610933303833,
+        "ov_write_score": 1.509402871131897,
+        "qk_read_score": 0.6890810132026672,
+        "combined_score": 0.3199933838309655,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/48671",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/40543"
+      },
+      {
+        "ov_dest_feat": 60556,
+        "qk_key_feat": 27066,
+        "cosine_similarity": 0.34559035301208496,
+        "ov_write_score": 1.200165867805481,
+        "qk_read_score": 0.7169355750083923,
+        "combined_score": 0.29736031855064066,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/60556",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/27066"
+      },
+      {
+        "ov_dest_feat": 33209,
+        "qk_key_feat": 33209,
+        "cosine_similarity": 0.38471755385398865,
+        "ov_write_score": 1.4470754861831665,
+        "qk_read_score": 0.3490685522556305,
+        "combined_score": 0.19433181820136353,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/33209",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/33209"
+      },
+      {
+        "ov_dest_feat": 3750,
+        "qk_key_feat": 33209,
+        "cosine_similarity": 0.3787003457546234,
+        "ov_write_score": 1.2307350635528564,
+        "qk_read_score": 0.3490685522556305,
+        "combined_score": 0.16269379896202132,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/3750",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/33209"
+      },
+      {
+        "ov_dest_feat": 42239,
+        "qk_key_feat": 56963,
+        "cosine_similarity": 0.3026639521121979,
+        "ov_write_score": 0.9244206547737122,
+        "qk_read_score": 0.5052293539047241,
+        "combined_score": 0.14135751909371214,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/42239",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/56963"
+      }
+    ],
+    "n_matches_above_threshold": 11,
+    "n_bidirectional": 6,
+    "n_ov_dest_features": 92,
+    "n_qk_key_features": 42,
+    "sae_layer_ov_dest": 13,
+    "sae_layer_qk_key": 14,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      13,
+      0
+    ],
+    "si_head": [
+      15,
+      0
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 2561,
+        "qk_key_feat": 4576,
+        "cosine_similarity": 0.34289899468421936,
+        "ov_write_score": 1.0832054615020752,
+        "qk_read_score": 0.6445163488388062,
+        "combined_score": 0.23939274856000659,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/2561",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/4576"
+      }
+    ],
+    "n_matches_above_threshold": 1,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 92,
+    "n_qk_key_features": 26,
+    "sae_layer_ov_dest": 13,
+    "sae_layer_qk_key": 16,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      13,
+      0
+    ],
+    "si_head": [
+      17,
+      3
+    ]
+  },
+  {
+    "matches": [],
+    "n_matches_above_threshold": 0,
+    "n_bidirectional": 0,
+    "n_ov_dest_features": 92,
+    "n_qk_key_features": 27,
+    "sae_layer_ov_dest": 13,
+    "sae_layer_qk_key": 15,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      13,
+      0
+    ],
+    "si_head": [
+      16,
+      6
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 2561,
+        "qk_key_feat": 4576,
+        "cosine_similarity": 0.34289899468421936,
+        "ov_write_score": 1.0832054615020752,
+        "qk_read_score": 0.26206398010253906,
+        "combined_score": 0.09733844084537266,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/2561",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/4576"
+      }
+    ],
+    "n_matches_above_threshold": 1,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 92,
+    "n_qk_key_features": 25,
+    "sae_layer_ov_dest": 13,
+    "sae_layer_qk_key": 16,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      13,
+      0
+    ],
+    "si_head": [
+      17,
+      7
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 43411,
+        "qk_key_feat": 54946,
+        "cosine_similarity": 0.6928845643997192,
+        "ov_write_score": 0.44377124309539795,
+        "qk_read_score": 0.3179817497730255,
+        "combined_score": 0.09777374211920588,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/10-gemmascope-res-16k/43411",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/54946"
+      }
+    ],
+    "n_matches_above_threshold": 1,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 80,
+    "n_qk_key_features": 38,
+    "sae_layer_ov_dest": 10,
+    "sae_layer_qk_key": 13,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      10,
+      3
+    ],
+    "si_head": [
+      14,
+      0
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 43411,
+        "qk_key_feat": 409,
+        "cosine_similarity": 0.7879001498222351,
+        "ov_write_score": 0.44377124309539795,
+        "qk_read_score": 0.2622714936733246,
+        "combined_score": 0.0917025534423223,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/10-gemmascope-res-16k/43411",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/409"
+      }
+    ],
+    "n_matches_above_threshold": 1,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 80,
+    "n_qk_key_features": 24,
+    "sae_layer_ov_dest": 10,
+    "sae_layer_qk_key": 11,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      10,
+      3
+    ],
+    "si_head": [
+      12,
+      1
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 43411,
+        "qk_key_feat": 63889,
+        "cosine_similarity": 0.653720498085022,
+        "ov_write_score": 0.44377124309539795,
+        "qk_read_score": 0.3240119218826294,
+        "combined_score": 0.0939966225816345,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/10-gemmascope-res-16k/43411",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/63889"
+      }
+    ],
+    "n_matches_above_threshold": 1,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 80,
+    "n_qk_key_features": 31,
+    "sae_layer_ov_dest": 10,
+    "sae_layer_qk_key": 13,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      10,
+      3
+    ],
+    "si_head": [
+      14,
+      1
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 43411,
+        "qk_key_feat": 7941,
+        "cosine_similarity": 0.7956520318984985,
+        "ov_write_score": 0.44377124309539795,
+        "qk_read_score": 0.3424777090549469,
+        "combined_score": 0.12092459510507249,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/10-gemmascope-res-16k/43411",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/7941"
+      }
+    ],
+    "n_matches_above_threshold": 1,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 80,
+    "n_qk_key_features": 42,
+    "sae_layer_ov_dest": 10,
+    "sae_layer_qk_key": 14,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      10,
+      3
+    ],
+    "si_head": [
+      15,
+      0
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 43411,
+        "qk_key_feat": 41459,
+        "cosine_similarity": 0.8171192407608032,
+        "ov_write_score": 0.44377124309539795,
+        "qk_read_score": 0.5091568827629089,
+        "combined_score": 0.18462742469538101,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/10-gemmascope-res-16k/43411",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/41459"
+      }
+    ],
+    "n_matches_above_threshold": 1,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 80,
+    "n_qk_key_features": 26,
+    "sae_layer_ov_dest": 10,
+    "sae_layer_qk_key": 16,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      10,
+      3
+    ],
+    "si_head": [
+      17,
+      3
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 43411,
+        "qk_key_feat": 51375,
+        "cosine_similarity": 0.8155276775360107,
+        "ov_write_score": 0.44377124309539795,
+        "qk_read_score": 1.356866717338562,
+        "combined_score": 0.4910605552655163,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/10-gemmascope-res-16k/43411",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/15-gemmascope-res-16k/51375"
+      }
+    ],
+    "n_matches_above_threshold": 1,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 80,
+    "n_qk_key_features": 27,
+    "sae_layer_ov_dest": 10,
+    "sae_layer_qk_key": 15,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      10,
+      3
+    ],
+    "si_head": [
+      16,
+      6
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 43411,
+        "qk_key_feat": 41459,
+        "cosine_similarity": 0.8171192407608032,
+        "ov_write_score": 0.44377124309539795,
+        "qk_read_score": 0.6880306601524353,
+        "combined_score": 0.24948956440712358,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/10-gemmascope-res-16k/43411",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/41459"
+      }
+    ],
+    "n_matches_above_threshold": 1,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 80,
+    "n_qk_key_features": 25,
+    "sae_layer_ov_dest": 10,
+    "sae_layer_qk_key": 16,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      10,
+      3
+    ],
+    "si_head": [
+      17,
+      7
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 25948,
+        "qk_key_feat": 6420,
+        "cosine_similarity": 0.502275824546814,
+        "ov_write_score": 0.4272667467594147,
+        "qk_read_score": 1.0053845643997192,
+        "combined_score": 0.21576131605199067,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/25948",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/6420"
+      },
+      {
+        "ov_dest_feat": 49805,
+        "qk_key_feat": 6420,
+        "cosine_similarity": 0.35966646671295166,
+        "ov_write_score": 0.47963085770606995,
+        "qk_read_score": 1.0053845643997192,
+        "combined_score": 0.17343601170040435,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/49805",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/6420"
+      },
+      {
+        "ov_dest_feat": 40528,
+        "qk_key_feat": 6420,
+        "cosine_similarity": 0.3322415053844452,
+        "ov_write_score": 0.511394739151001,
+        "qk_read_score": 1.0053845643997192,
+        "combined_score": 0.17082143078459872,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/40528",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/6420"
+      },
+      {
+        "ov_dest_feat": 36416,
+        "qk_key_feat": 53330,
+        "cosine_similarity": 0.4183194935321808,
+        "ov_write_score": 0.40181267261505127,
+        "qk_read_score": 0.5544520020484924,
+        "combined_score": 0.09319566008117655,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/36416",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/53330"
+      },
+      {
+        "ov_dest_feat": 22252,
+        "qk_key_feat": 53330,
+        "cosine_similarity": 0.31948626041412354,
+        "ov_write_score": 0.4739078879356384,
+        "qk_read_score": 0.5544520020484924,
+        "combined_score": 0.08394794692988901,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/22252",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/53330"
+      },
+      {
+        "ov_dest_feat": 36698,
+        "qk_key_feat": 54946,
+        "cosine_similarity": 0.33850187063217163,
+        "ov_write_score": 0.6747205257415771,
+        "qk_read_score": 0.3179817497730255,
+        "combined_score": 0.0726251746720861,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/36698",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/54946"
+      },
+      {
+        "ov_dest_feat": 19404,
+        "qk_key_feat": 54946,
+        "cosine_similarity": 0.32657691836357117,
+        "ov_write_score": 0.6607722640037537,
+        "qk_read_score": 0.3179817497730255,
+        "combined_score": 0.06861822609979532,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/19404",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/54946"
+      },
+      {
+        "ov_dest_feat": 36311,
+        "qk_key_feat": 54946,
+        "cosine_similarity": 0.31820937991142273,
+        "ov_write_score": 0.642011284828186,
+        "qk_read_score": 0.3179817497730255,
+        "combined_score": 0.0649617676714336,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/36311",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/54946"
+      }
+    ],
+    "n_matches_above_threshold": 8,
+    "n_bidirectional": 3,
+    "n_ov_dest_features": 66,
+    "n_qk_key_features": 38,
+    "sae_layer_ov_dest": 3,
+    "sae_layer_qk_key": 13,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      3,
+      1
+    ],
+    "si_head": [
+      14,
+      0
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 25948,
+        "qk_key_feat": 24133,
+        "cosine_similarity": 0.568507730960846,
+        "ov_write_score": 0.4272667467594147,
+        "qk_read_score": 0.6929491758346558,
+        "combined_score": 0.16832043754378118,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/25948",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/24133"
+      },
+      {
+        "ov_dest_feat": 40528,
+        "qk_key_feat": 24133,
+        "cosine_similarity": 0.4324154555797577,
+        "ov_write_score": 0.511394739151001,
+        "qk_read_score": 0.6929491758346558,
+        "combined_score": 0.1532353084527225,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/40528",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/24133"
+      },
+      {
+        "ov_dest_feat": 49805,
+        "qk_key_feat": 24133,
+        "cosine_similarity": 0.4415034353733063,
+        "ov_write_score": 0.47963085770606995,
+        "qk_read_score": 0.6929491758346558,
+        "combined_score": 0.14673799681434707,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/49805",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/24133"
+      },
+      {
+        "ov_dest_feat": 57481,
+        "qk_key_feat": 32463,
+        "cosine_similarity": 0.34949350357055664,
+        "ov_write_score": 0.6569948792457581,
+        "qk_read_score": 0.5992834568023682,
+        "combined_score": 0.13760473592214678,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/57481",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/32463"
+      },
+      {
+        "ov_dest_feat": 22252,
+        "qk_key_feat": 14803,
+        "cosine_similarity": 0.41639426350593567,
+        "ov_write_score": 0.4739078879356384,
+        "qk_read_score": 0.6200605630874634,
+        "combined_score": 0.12235811716632995,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/22252",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/14803"
+      },
+      {
+        "ov_dest_feat": 36303,
+        "qk_key_feat": 32463,
+        "cosine_similarity": 0.34954795241355896,
+        "ov_write_score": 0.5454120635986328,
+        "qk_read_score": 0.5992834568023682,
+        "combined_score": 0.11425199474041302,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/36303",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/32463"
+      },
+      {
+        "ov_dest_feat": 36416,
+        "qk_key_feat": 14803,
+        "cosine_similarity": 0.4506857395172119,
+        "ov_write_score": 0.40181267261505127,
+        "qk_read_score": 0.6200605630874634,
+        "combined_score": 0.11228753717773719,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/36416",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/14803"
+      },
+      {
+        "ov_dest_feat": 6628,
+        "qk_key_feat": 14803,
+        "cosine_similarity": 0.35238832235336304,
+        "ov_write_score": 0.5022287368774414,
+        "qk_read_score": 0.6200605630874634,
+        "combined_score": 0.10973803448353485,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/6628",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/14803"
+      }
+    ],
+    "n_matches_above_threshold": 8,
+    "n_bidirectional": 3,
+    "n_ov_dest_features": 66,
+    "n_qk_key_features": 24,
+    "sae_layer_ov_dest": 3,
+    "sae_layer_qk_key": 11,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      3,
+      1
+    ],
+    "si_head": [
+      12,
+      1
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 25948,
+        "qk_key_feat": 6420,
+        "cosine_similarity": 0.502275824546814,
+        "ov_write_score": 0.4272667467594147,
+        "qk_read_score": 2.040471315383911,
+        "combined_score": 0.43789689235624013,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/25948",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/6420"
+      },
+      {
+        "ov_dest_feat": 49805,
+        "qk_key_feat": 6420,
+        "cosine_similarity": 0.35966646671295166,
+        "ov_write_score": 0.47963085770606995,
+        "qk_read_score": 2.040471315383911,
+        "combined_score": 0.35199586253898757,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/49805",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/6420"
+      },
+      {
+        "ov_dest_feat": 40528,
+        "qk_key_feat": 6420,
+        "cosine_similarity": 0.3322415053844452,
+        "ov_write_score": 0.511394739151001,
+        "qk_read_score": 2.040471315383911,
+        "combined_score": 0.34668945785628097,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/40528",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/6420"
+      },
+      {
+        "ov_dest_feat": 36416,
+        "qk_key_feat": 53330,
+        "cosine_similarity": 0.4183194935321808,
+        "ov_write_score": 0.40181267261505127,
+        "qk_read_score": 1.122588872909546,
+        "combined_score": 0.18869155603019905,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/36416",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/53330"
+      },
+      {
+        "ov_dest_feat": 22252,
+        "qk_key_feat": 53330,
+        "cosine_similarity": 0.31948626041412354,
+        "ov_write_score": 0.4739078879356384,
+        "qk_read_score": 1.122588872909546,
+        "combined_score": 0.16996787959808343,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/22252",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/53330"
+      }
+    ],
+    "n_matches_above_threshold": 5,
+    "n_bidirectional": 2,
+    "n_ov_dest_features": 66,
+    "n_qk_key_features": 31,
+    "sae_layer_ov_dest": 3,
+    "sae_layer_qk_key": 13,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      3,
+      1
+    ],
+    "si_head": [
+      14,
+      1
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 25948,
+        "qk_key_feat": 18287,
+        "cosine_similarity": 0.4446280300617218,
+        "ov_write_score": 0.4272667467594147,
+        "qk_read_score": 1.9927780628204346,
+        "combined_score": 0.3785775579765115,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/25948",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/18287"
+      },
+      {
+        "ov_dest_feat": 40528,
+        "qk_key_feat": 18287,
+        "cosine_similarity": 0.3090721666812897,
+        "ov_write_score": 0.511394739151001,
+        "qk_read_score": 1.9927780628204346,
+        "combined_score": 0.3149742760371056,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/40528",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/18287"
+      },
+      {
+        "ov_dest_feat": 49805,
+        "qk_key_feat": 18287,
+        "cosine_similarity": 0.3210582137107849,
+        "ov_write_score": 0.47963085770606995,
+        "qk_read_score": 1.9927780628204346,
+        "combined_score": 0.30686675086747356,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/49805",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/18287"
+      },
+      {
+        "ov_dest_feat": 36416,
+        "qk_key_feat": 33335,
+        "cosine_similarity": 0.3759385347366333,
+        "ov_write_score": 0.40181267261505127,
+        "qk_read_score": 0.5938261151313782,
+        "combined_score": 0.08970151272107961,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/36416",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/33335"
+      }
+    ],
+    "n_matches_above_threshold": 4,
+    "n_bidirectional": 2,
+    "n_ov_dest_features": 66,
+    "n_qk_key_features": 42,
+    "sae_layer_ov_dest": 3,
+    "sae_layer_qk_key": 14,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      3,
+      1
+    ],
+    "si_head": [
+      15,
+      0
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 25948,
+        "qk_key_feat": 26066,
+        "cosine_similarity": 0.44852328300476074,
+        "ov_write_score": 0.4272667467594147,
+        "qk_read_score": 3.5511319637298584,
+        "combined_score": 0.6805356766045855,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/25948",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/26066"
+      },
+      {
+        "ov_dest_feat": 36416,
+        "qk_key_feat": 2651,
+        "cosine_similarity": 0.3528927266597748,
+        "ov_write_score": 0.40181267261505127,
+        "qk_read_score": 1.0314654111862183,
+        "combined_score": 0.1462584633073524,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/36416",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/2651"
+      },
+      {
+        "ov_dest_feat": 36698,
+        "qk_key_feat": 41459,
+        "cosine_similarity": 0.355416864156723,
+        "ov_write_score": 0.6747205257415771,
+        "qk_read_score": 0.5091568827629089,
+        "combined_score": 0.12209941179470357,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/36698",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/41459"
+      },
+      {
+        "ov_dest_feat": 36311,
+        "qk_key_feat": 41459,
+        "cosine_similarity": 0.359588623046875,
+        "ov_write_score": 0.642011284828186,
+        "qk_read_score": 0.5091568827629089,
+        "combined_score": 0.11754393447840014,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/36311",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/41459"
+      },
+      {
+        "ov_dest_feat": 19404,
+        "qk_key_feat": 41459,
+        "cosine_similarity": 0.3455091416835785,
+        "ov_write_score": 0.6607722640037537,
+        "qk_read_score": 0.5091568827629089,
+        "combined_score": 0.1162419713952934,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/19404",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/41459"
+      }
+    ],
+    "n_matches_above_threshold": 5,
+    "n_bidirectional": 3,
+    "n_ov_dest_features": 66,
+    "n_qk_key_features": 26,
+    "sae_layer_ov_dest": 3,
+    "sae_layer_qk_key": 16,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      3,
+      1
+    ],
+    "si_head": [
+      17,
+      3
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 25948,
+        "qk_key_feat": 46331,
+        "cosine_similarity": 0.44714540243148804,
+        "ov_write_score": 0.4272667467594147,
+        "qk_read_score": 1.7870213985443115,
+        "combined_score": 0.34141108406669146,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/25948",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/15-gemmascope-res-16k/46331"
+      },
+      {
+        "ov_dest_feat": 22252,
+        "qk_key_feat": 9735,
+        "cosine_similarity": 0.5034283399581909,
+        "ov_write_score": 0.4739078879356384,
+        "qk_read_score": 0.48764654994010925,
+        "combined_score": 0.11634206108033607,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/22252",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/15-gemmascope-res-16k/9735"
+      },
+      {
+        "ov_dest_feat": 6628,
+        "qk_key_feat": 9735,
+        "cosine_similarity": 0.40531766414642334,
+        "ov_write_score": 0.5022287368774414,
+        "qk_read_score": 0.48764654994010925,
+        "combined_score": 0.09926639404302438,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/6628",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/15-gemmascope-res-16k/9735"
+      },
+      {
+        "ov_dest_feat": 36416,
+        "qk_key_feat": 9735,
+        "cosine_similarity": 0.47711271047592163,
+        "ov_write_score": 0.40181267261505127,
+        "qk_read_score": 0.48764654994010925,
+        "combined_score": 0.09348668758003244,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/36416",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/15-gemmascope-res-16k/9735"
+      }
+    ],
+    "n_matches_above_threshold": 4,
+    "n_bidirectional": 2,
+    "n_ov_dest_features": 66,
+    "n_qk_key_features": 27,
+    "sae_layer_ov_dest": 3,
+    "sae_layer_qk_key": 15,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      3,
+      1
+    ],
+    "si_head": [
+      16,
+      6
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 25948,
+        "qk_key_feat": 26066,
+        "cosine_similarity": 0.44852328300476074,
+        "ov_write_score": 0.4272667467594147,
+        "qk_read_score": 2.047614574432373,
+        "combined_score": 0.3924029813786863,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/25948",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/26066"
+      },
+      {
+        "ov_dest_feat": 36698,
+        "qk_key_feat": 41459,
+        "cosine_similarity": 0.355416864156723,
+        "ov_write_score": 0.6747205257415771,
+        "qk_read_score": 0.6880306601524353,
+        "combined_score": 0.1649946052883914,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/36698",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/41459"
+      },
+      {
+        "ov_dest_feat": 36311,
+        "qk_key_feat": 41459,
+        "cosine_similarity": 0.359588623046875,
+        "ov_write_score": 0.642011284828186,
+        "qk_read_score": 0.6880306601524353,
+        "combined_score": 0.1588387264790202,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/36311",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/41459"
+      },
+      {
+        "ov_dest_feat": 19404,
+        "qk_key_feat": 41459,
+        "cosine_similarity": 0.3455091416835785,
+        "ov_write_score": 0.6607722640037537,
+        "qk_read_score": 0.6880306601524353,
+        "combined_score": 0.15707936595598634,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/19404",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/41459"
+      },
+      {
+        "ov_dest_feat": 22252,
+        "qk_key_feat": 5458,
+        "cosine_similarity": 0.48278093338012695,
+        "ov_write_score": 0.4739078879356384,
+        "qk_read_score": 0.3364439904689789,
+        "combined_score": 0.07697626289000828,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/22252",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/5458"
+      },
+      {
+        "ov_dest_feat": 6628,
+        "qk_key_feat": 5458,
+        "cosine_similarity": 0.3547039330005646,
+        "ov_write_score": 0.5022287368774414,
+        "qk_read_score": 0.3364439904689789,
+        "combined_score": 0.059934976343185196,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/6628",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/5458"
+      },
+      {
+        "ov_dest_feat": 36416,
+        "qk_key_feat": 5458,
+        "cosine_similarity": 0.4421819746494293,
+        "ov_write_score": 0.40181267261505127,
+        "qk_read_score": 0.3364439904689789,
+        "combined_score": 0.05977745756651902,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/36416",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/5458"
+      }
+    ],
+    "n_matches_above_threshold": 7,
+    "n_bidirectional": 3,
+    "n_ov_dest_features": 66,
+    "n_qk_key_features": 25,
+    "sae_layer_ov_dest": 3,
+    "sae_layer_qk_key": 16,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      3,
+      1
+    ],
+    "si_head": [
+      17,
+      7
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 63865,
+        "qk_key_feat": 15319,
+        "cosine_similarity": 0.9166070222854614,
+        "ov_write_score": 2.5982625484466553,
+        "qk_read_score": 1.634232759475708,
+        "combined_score": 3.892065366594391,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/63865",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/15319"
+      },
+      {
+        "ov_dest_feat": 19660,
+        "qk_key_feat": 46921,
+        "cosine_similarity": 0.9856733679771423,
+        "ov_write_score": 1.9877853393554688,
+        "qk_read_score": 0.36098137497901917,
+        "combined_score": 0.7072733602278797,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/19660",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/46921"
+      },
+      {
+        "ov_dest_feat": 12541,
+        "qk_key_feat": 6420,
+        "cosine_similarity": 0.9201462864875793,
+        "ov_write_score": 0.3772961497306824,
+        "qk_read_score": 1.0053845643997192,
+        "combined_score": 0.3490369976554926,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/12541",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/6420"
+      },
+      {
+        "ov_dest_feat": 36184,
+        "qk_key_feat": 6420,
+        "cosine_similarity": 0.3917105495929718,
+        "ov_write_score": 0.6978457570075989,
+        "qk_read_score": 1.0053845643997192,
+        "combined_score": 0.2748254347755602,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/36184",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/6420"
+      },
+      {
+        "ov_dest_feat": 22024,
+        "qk_key_feat": 53330,
+        "cosine_similarity": 0.9107284545898438,
+        "ov_write_score": 0.466511994600296,
+        "qk_read_score": 0.5544520020484924,
+        "combined_score": 0.23556766451941455,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/22024",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/53330"
+      },
+      {
+        "ov_dest_feat": 6479,
+        "qk_key_feat": 37628,
+        "cosine_similarity": 0.34484800696372986,
+        "ov_write_score": 0.37960752844810486,
+        "qk_read_score": 1.396517276763916,
+        "combined_score": 0.18281374695821034,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/6479",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/37628"
+      },
+      {
+        "ov_dest_feat": 64043,
+        "qk_key_feat": 53330,
+        "cosine_similarity": 0.40854009985923767,
+        "ov_write_score": 0.7020622491836548,
+        "qk_read_score": 0.5544520020484924,
+        "combined_score": 0.15902824557978337,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/64043",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/53330"
+      },
+      {
+        "ov_dest_feat": 59446,
+        "qk_key_feat": 26056,
+        "cosine_similarity": 0.3611924946308136,
+        "ov_write_score": 0.4972817897796631,
+        "qk_read_score": 0.8751392960548401,
+        "combined_score": 0.15718766349617133,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/59446",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/26056"
+      },
+      {
+        "ov_dest_feat": 36142,
+        "qk_key_feat": 46921,
+        "cosine_similarity": 0.401273638010025,
+        "ov_write_score": 0.799847424030304,
+        "qk_read_score": 0.36098137497901917,
+        "combined_score": 0.11585974669175497,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/36142",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/46921"
+      },
+      {
+        "ov_dest_feat": 6277,
+        "qk_key_feat": 46921,
+        "cosine_similarity": 0.3964315354824066,
+        "ov_write_score": 0.8055417537689209,
+        "qk_read_score": 0.36098137497901917,
+        "combined_score": 0.11527656996306657,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/6277",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/46921"
+      },
+      {
+        "ov_dest_feat": 46953,
+        "qk_key_feat": 63889,
+        "cosine_similarity": 0.8476991057395935,
+        "ov_write_score": 0.38766464591026306,
+        "qk_read_score": 0.32140055298805237,
+        "combined_score": 0.10561960546050472,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/46953",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/63889"
+      },
+      {
+        "ov_dest_feat": 242,
+        "qk_key_feat": 46921,
+        "cosine_similarity": 0.34570521116256714,
+        "ov_write_score": 0.803602397441864,
+        "qk_read_score": 0.36098137497901917,
+        "combined_score": 0.10028406846747095,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/242",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/46921"
+      },
+      {
+        "ov_dest_feat": 44352,
+        "qk_key_feat": 54946,
+        "cosine_similarity": 0.551791250705719,
+        "ov_write_score": 0.5127077102661133,
+        "qk_read_score": 0.3179817497730255,
+        "combined_score": 0.0899594627963204,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/44352",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/54946"
+      },
+      {
+        "ov_dest_feat": 12512,
+        "qk_key_feat": 46921,
+        "cosine_similarity": 0.3388527035713196,
+        "ov_write_score": 0.6584736704826355,
+        "qk_read_score": 0.36098137497901917,
+        "combined_score": 0.08054417991528566,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/12512",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/46921"
+      },
+      {
+        "ov_dest_feat": 51822,
+        "qk_key_feat": 46921,
+        "cosine_similarity": 0.35051625967025757,
+        "ov_write_score": 0.5853249430656433,
+        "qk_read_score": 0.36098137497901917,
+        "combined_score": 0.07406107219498897,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/51822",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/46921"
+      },
+      {
+        "ov_dest_feat": 38278,
+        "qk_key_feat": 54946,
+        "cosine_similarity": 0.33318251371383667,
+        "ov_write_score": 0.5733475685119629,
+        "qk_read_score": 0.3179817497730255,
+        "combined_score": 0.06074385781689439,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/38278",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/54946"
+      },
+      {
+        "ov_dest_feat": 64263,
+        "qk_key_feat": 54946,
+        "cosine_similarity": 0.33948466181755066,
+        "ov_write_score": 0.4523759186267853,
+        "qk_read_score": 0.3179817497730255,
+        "combined_score": 0.048833947295442465,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/64263",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/54946"
+      }
+    ],
+    "n_matches_above_threshold": 17,
+    "n_bidirectional": 8,
+    "n_ov_dest_features": 111,
+    "n_qk_key_features": 38,
+    "sae_layer_ov_dest": 12,
+    "sae_layer_qk_key": 13,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      12,
+      6
+    ],
+    "si_head": [
+      14,
+      0
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 63865,
+        "qk_key_feat": 5067,
+        "cosine_similarity": 0.9563706517219543,
+        "ov_write_score": 2.5982625484466553,
+        "qk_read_score": 3.172626495361328,
+        "combined_score": 7.8836660720637575,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/63865",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/5067"
+      },
+      {
+        "ov_dest_feat": 19660,
+        "qk_key_feat": 59015,
+        "cosine_similarity": 0.9866975545883179,
+        "ov_write_score": 1.9877853393554688,
+        "qk_read_score": 1.0234125852584839,
+        "combined_score": 2.0072630420376347,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/19660",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/59015"
+      },
+      {
+        "ov_dest_feat": 36142,
+        "qk_key_feat": 59015,
+        "cosine_similarity": 0.4152836203575134,
+        "ov_write_score": 0.799847424030304,
+        "qk_read_score": 1.0234125852584839,
+        "combined_score": 0.3399403410441174,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/36142",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/59015"
+      },
+      {
+        "ov_dest_feat": 33856,
+        "qk_key_feat": 30004,
+        "cosine_similarity": 0.33371391892433167,
+        "ov_write_score": 0.36766812205314636,
+        "qk_read_score": 2.4951279163360596,
+        "combined_score": 0.3061421396543084,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/33856",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/30004"
+      },
+      {
+        "ov_dest_feat": 242,
+        "qk_key_feat": 59015,
+        "cosine_similarity": 0.33413511514663696,
+        "ov_write_score": 0.803602397441864,
+        "qk_read_score": 1.0234125852584839,
+        "combined_score": 0.2747983345341746,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/242",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/59015"
+      },
+      {
+        "ov_dest_feat": 64043,
+        "qk_key_feat": 59015,
+        "cosine_similarity": 0.358399361371994,
+        "ov_write_score": 0.7020622491836548,
+        "qk_read_score": 1.0234125852584839,
+        "combined_score": 0.257509705121674,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/64043",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/59015"
+      },
+      {
+        "ov_dest_feat": 12512,
+        "qk_key_feat": 59015,
+        "cosine_similarity": 0.3483656346797943,
+        "ov_write_score": 0.6584736704826355,
+        "qk_read_score": 1.0234125852584839,
+        "combined_score": 0.23476020166142336,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/12512",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/59015"
+      },
+      {
+        "ov_dest_feat": 32236,
+        "qk_key_feat": 12680,
+        "cosine_similarity": 0.30447110533714294,
+        "ov_write_score": 1.3512719869613647,
+        "qk_read_score": 0.5562447905540466,
+        "combined_score": 0.22885205369912448,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/32236",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/12680"
+      },
+      {
+        "ov_dest_feat": 51822,
+        "qk_key_feat": 59015,
+        "cosine_similarity": 0.35741785168647766,
+        "ov_write_score": 0.5853249430656433,
+        "qk_read_score": 1.0234125852584839,
+        "combined_score": 0.21410362725370244,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/51822",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/59015"
+      },
+      {
+        "ov_dest_feat": 22024,
+        "qk_key_feat": 14803,
+        "cosine_similarity": 0.6812664866447449,
+        "ov_write_score": 0.466511994600296,
+        "qk_read_score": 0.6200605630874634,
+        "combined_score": 0.19706702037330487,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/22024",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/14803"
+      },
+      {
+        "ov_dest_feat": 6277,
+        "qk_key_feat": 14803,
+        "cosine_similarity": 0.37150394916534424,
+        "ov_write_score": 0.8055417537689209,
+        "qk_read_score": 0.6200605630874634,
+        "combined_score": 0.1855605287277063,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/6277",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/14803"
+      },
+      {
+        "ov_dest_feat": 59446,
+        "qk_key_feat": 54945,
+        "cosine_similarity": 0.5918276309967041,
+        "ov_write_score": 0.4972817897796631,
+        "qk_read_score": 0.4891178607940674,
+        "combined_score": 0.1439498826853418,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/59446",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/54945"
+      },
+      {
+        "ov_dest_feat": 49711,
+        "qk_key_feat": 12680,
+        "cosine_similarity": 0.3027801513671875,
+        "ov_write_score": 0.8036917448043823,
+        "qk_read_score": 0.5562447905540466,
+        "combined_score": 0.13535766872882046,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/49711",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/12680"
+      },
+      {
+        "ov_dest_feat": 6479,
+        "qk_key_feat": 4297,
+        "cosine_similarity": 0.6834984421730042,
+        "ov_write_score": 0.37960752844810486,
+        "qk_read_score": 0.4842425584793091,
+        "combined_score": 0.12564213319944365,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/6479",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/4297"
+      },
+      {
+        "ov_dest_feat": 12541,
+        "qk_key_feat": 35343,
+        "cosine_similarity": 0.6783259510993958,
+        "ov_write_score": 0.3772961497306824,
+        "qk_read_score": 0.4041254222393036,
+        "combined_score": 0.1034277262081401,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/12541",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/35343"
+      },
+      {
+        "ov_dest_feat": 46953,
+        "qk_key_feat": 409,
+        "cosine_similarity": 0.9408524632453918,
+        "ov_write_score": 0.38766464591026306,
+        "qk_read_score": 0.2622714936733246,
+        "combined_score": 0.09565965540795868,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/46953",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/409"
+      }
+    ],
+    "n_matches_above_threshold": 16,
+    "n_bidirectional": 9,
+    "n_ov_dest_features": 111,
+    "n_qk_key_features": 24,
+    "sae_layer_ov_dest": 12,
+    "sae_layer_qk_key": 11,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      12,
+      6
+    ],
+    "si_head": [
+      12,
+      1
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 63865,
+        "qk_key_feat": 15319,
+        "cosine_similarity": 0.9166070222854614,
+        "ov_write_score": 2.5982625484466553,
+        "qk_read_score": 2.3148856163024902,
+        "combined_score": 5.513098475475982,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/63865",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/15319"
+      },
+      {
+        "ov_dest_feat": 19660,
+        "qk_key_feat": 46921,
+        "cosine_similarity": 0.9856733679771423,
+        "ov_write_score": 1.9877853393554688,
+        "qk_read_score": 0.5438024401664734,
+        "combined_score": 1.0654759658417743,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/19660",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/46921"
+      },
+      {
+        "ov_dest_feat": 12541,
+        "qk_key_feat": 6420,
+        "cosine_similarity": 0.9201462864875793,
+        "ov_write_score": 0.3772961497306824,
+        "qk_read_score": 2.040471315383911,
+        "combined_score": 0.7083856336594788,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/12541",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/6420"
+      },
+      {
+        "ov_dest_feat": 36184,
+        "qk_key_feat": 6420,
+        "cosine_similarity": 0.3917105495929718,
+        "ov_write_score": 0.6978457570075989,
+        "qk_read_score": 2.040471315383911,
+        "combined_score": 0.557770067548492,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/36184",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/6420"
+      },
+      {
+        "ov_dest_feat": 22024,
+        "qk_key_feat": 53330,
+        "cosine_similarity": 0.9107284545898438,
+        "ov_write_score": 0.466511994600296,
+        "qk_read_score": 1.122588872909546,
+        "combined_score": 0.47694956106165376,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/22024",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/53330"
+      },
+      {
+        "ov_dest_feat": 64043,
+        "qk_key_feat": 53330,
+        "cosine_similarity": 0.40854009985923767,
+        "ov_write_score": 0.7020622491836548,
+        "qk_read_score": 1.122588872909546,
+        "combined_score": 0.3219815931886162,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/64043",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/53330"
+      },
+      {
+        "ov_dest_feat": 6479,
+        "qk_key_feat": 37628,
+        "cosine_similarity": 0.34484800696372986,
+        "ov_write_score": 0.37960752844810486,
+        "qk_read_score": 1.5869531631469727,
+        "combined_score": 0.20774311841981385,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/6479",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/37628"
+      },
+      {
+        "ov_dest_feat": 59446,
+        "qk_key_feat": 26056,
+        "cosine_similarity": 0.3611924946308136,
+        "ov_write_score": 0.4972817897796631,
+        "qk_read_score": 0.9936116337776184,
+        "combined_score": 0.1784670072983789,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/59446",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/26056"
+      },
+      {
+        "ov_dest_feat": 36142,
+        "qk_key_feat": 46921,
+        "cosine_similarity": 0.401273638010025,
+        "ov_write_score": 0.799847424030304,
+        "qk_read_score": 0.5438024401664734,
+        "combined_score": 0.17453757267035672,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/36142",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/46921"
+      },
+      {
+        "ov_dest_feat": 6277,
+        "qk_key_feat": 46921,
+        "cosine_similarity": 0.3964315354824066,
+        "ov_write_score": 0.8055417537689209,
+        "qk_read_score": 0.5438024401664734,
+        "combined_score": 0.17365904277909158,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/6277",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/46921"
+      },
+      {
+        "ov_dest_feat": 242,
+        "qk_key_feat": 46921,
+        "cosine_similarity": 0.34570521116256714,
+        "ov_write_score": 0.803602397441864,
+        "qk_read_score": 0.5438024401664734,
+        "combined_score": 0.1510735038493386,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/242",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/46921"
+      },
+      {
+        "ov_dest_feat": 12512,
+        "qk_key_feat": 46921,
+        "cosine_similarity": 0.3388527035713196,
+        "ov_write_score": 0.6584736704826355,
+        "qk_read_score": 0.5438024401664734,
+        "combined_score": 0.1213362367564962,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/12512",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/46921"
+      },
+      {
+        "ov_dest_feat": 51822,
+        "qk_key_feat": 46921,
+        "cosine_similarity": 0.35051625967025757,
+        "ov_write_score": 0.5853249430656433,
+        "qk_read_score": 0.5438024401664734,
+        "combined_score": 0.11156972235290862,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/51822",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/46921"
+      },
+      {
+        "ov_dest_feat": 46953,
+        "qk_key_feat": 63889,
+        "cosine_similarity": 0.8476991057395935,
+        "ov_write_score": 0.38766464591026306,
+        "qk_read_score": 0.3240119218826294,
+        "combined_score": 0.10647776127197688,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/46953",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/63889"
+      },
+      {
+        "ov_dest_feat": 49711,
+        "qk_key_feat": 8026,
+        "cosine_similarity": 0.3429257273674011,
+        "ov_write_score": 0.8036917448043823,
+        "qk_read_score": 0.26348671317100525,
+        "combined_score": 0.07261867088235123,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/49711",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/8026"
+      }
+    ],
+    "n_matches_above_threshold": 15,
+    "n_bidirectional": 8,
+    "n_ov_dest_features": 111,
+    "n_qk_key_features": 31,
+    "sae_layer_ov_dest": 12,
+    "sae_layer_qk_key": 13,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      12,
+      6
+    ],
+    "si_head": [
+      14,
+      1
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 63865,
+        "qk_key_feat": 4970,
+        "cosine_similarity": 0.914654016494751,
+        "ov_write_score": 2.5982625484466553,
+        "qk_read_score": 4.327735424041748,
+        "combined_score": 10.284912034107416,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/63865",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/4970"
+      },
+      {
+        "ov_dest_feat": 12541,
+        "qk_key_feat": 18287,
+        "cosine_similarity": 0.8604102730751038,
+        "ov_write_score": 0.3772961497306824,
+        "qk_read_score": 1.9927780628204346,
+        "combined_score": 0.646914512705474,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/12541",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/18287"
+      },
+      {
+        "ov_dest_feat": 19660,
+        "qk_key_feat": 19660,
+        "cosine_similarity": 0.9822718501091003,
+        "ov_write_score": 1.9877853393554688,
+        "qk_read_score": 0.27457213401794434,
+        "combined_score": 0.536114607466482,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/19660",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/19660"
+      },
+      {
+        "ov_dest_feat": 36184,
+        "qk_key_feat": 18287,
+        "cosine_similarity": 0.3345978558063507,
+        "ov_write_score": 0.6978457570075989,
+        "qk_read_score": 1.9927780628204346,
+        "combined_score": 0.46530908227911977,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/36184",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/18287"
+      },
+      {
+        "ov_dest_feat": 22024,
+        "qk_key_feat": 33335,
+        "cosine_similarity": 0.8448455333709717,
+        "ov_write_score": 0.466511994600296,
+        "qk_read_score": 0.5938261151313782,
+        "combined_score": 0.23404502814857683,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/22024",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/33335"
+      },
+      {
+        "ov_dest_feat": 32236,
+        "qk_key_feat": 63256,
+        "cosine_similarity": 0.5602037906646729,
+        "ov_write_score": 1.3512719869613647,
+        "qk_read_score": 0.28277507424354553,
+        "combined_score": 0.21405725004742585,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/32236",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/63256"
+      },
+      {
+        "ov_dest_feat": 64043,
+        "qk_key_feat": 33335,
+        "cosine_similarity": 0.4477370083332062,
+        "ov_write_score": 0.7020622491836548,
+        "qk_read_score": 0.5938261151313782,
+        "combined_score": 0.18666285632184137,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/64043",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/33335"
+      },
+      {
+        "ov_dest_feat": 12512,
+        "qk_key_feat": 33335,
+        "cosine_similarity": 0.34906822443008423,
+        "ov_write_score": 0.6584736704826355,
+        "qk_read_score": 0.5938261151313782,
+        "combined_score": 0.1364922597579808,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/12512",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/33335"
+      },
+      {
+        "ov_dest_feat": 49711,
+        "qk_key_feat": 63256,
+        "cosine_similarity": 0.5488470792770386,
+        "ov_write_score": 0.8036917448043823,
+        "qk_read_score": 0.28277507424354553,
+        "combined_score": 0.12473317867640214,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/49711",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/63256"
+      },
+      {
+        "ov_dest_feat": 46953,
+        "qk_key_feat": 7941,
+        "cosine_similarity": 0.8213029503822327,
+        "ov_write_score": 0.38766464591026306,
+        "qk_read_score": 0.3424777090549469,
+        "combined_score": 0.10904151800829312,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/46953",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/7941"
+      },
+      {
+        "ov_dest_feat": 6277,
+        "qk_key_feat": 19660,
+        "cosine_similarity": 0.4004622995853424,
+        "ov_write_score": 0.8055417537689209,
+        "qk_read_score": 0.27457213401794434,
+        "combined_score": 0.08857397845632613,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/6277",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/19660"
+      },
+      {
+        "ov_dest_feat": 36142,
+        "qk_key_feat": 19660,
+        "cosine_similarity": 0.394914835691452,
+        "ov_write_score": 0.799847424030304,
+        "qk_read_score": 0.27457213401794434,
+        "combined_score": 0.08672954314242426,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/36142",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/19660"
+      },
+      {
+        "ov_dest_feat": 242,
+        "qk_key_feat": 19660,
+        "cosine_similarity": 0.35384315252304077,
+        "ov_write_score": 0.803602397441864,
+        "qk_read_score": 0.27457213401794434,
+        "combined_score": 0.0780743682114857,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/242",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/19660"
+      },
+      {
+        "ov_dest_feat": 51822,
+        "qk_key_feat": 19660,
+        "cosine_similarity": 0.346525102853775,
+        "ov_write_score": 0.5853249430656433,
+        "qk_read_score": 0.27457213401794434,
+        "combined_score": 0.055691407211523804,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/51822",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/19660"
+      }
+    ],
+    "n_matches_above_threshold": 14,
+    "n_bidirectional": 6,
+    "n_ov_dest_features": 111,
+    "n_qk_key_features": 42,
+    "sae_layer_ov_dest": 12,
+    "sae_layer_qk_key": 14,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      12,
+      6
+    ],
+    "si_head": [
+      15,
+      0
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 63865,
+        "qk_key_feat": 9150,
+        "cosine_similarity": 0.7175629138946533,
+        "ov_write_score": 2.5982625484466553,
+        "qk_read_score": 2.9487898349761963,
+        "combined_score": 5.497773441657848,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/63865",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/9150"
+      },
+      {
+        "ov_dest_feat": 53758,
+        "qk_key_feat": 42507,
+        "cosine_similarity": 0.9306744337081909,
+        "ov_write_score": 1.9837194681167603,
+        "qk_read_score": 1.9346712827682495,
+        "combined_score": 3.571784303965621,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/53758",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/42507"
+      },
+      {
+        "ov_dest_feat": 9679,
+        "qk_key_feat": 15618,
+        "cosine_similarity": 0.5270702242851257,
+        "ov_write_score": 2.3543336391448975,
+        "qk_read_score": 2.410416841506958,
+        "combined_score": 2.991084232010458,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/9679",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/15618"
+      },
+      {
+        "ov_dest_feat": 19660,
+        "qk_key_feat": 52932,
+        "cosine_similarity": 0.350351482629776,
+        "ov_write_score": 1.9877853393554688,
+        "qk_read_score": 3.117908477783203,
+        "combined_score": 2.1713848619660445,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/19660",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/52932"
+      },
+      {
+        "ov_dest_feat": 47279,
+        "qk_key_feat": 42507,
+        "cosine_similarity": 0.6586030125617981,
+        "ov_write_score": 1.326136589050293,
+        "qk_read_score": 1.9346712827682495,
+        "combined_score": 1.6897371634880847,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/47279",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/42507"
+      },
+      {
+        "ov_dest_feat": 12541,
+        "qk_key_feat": 26066,
+        "cosine_similarity": 0.8762730360031128,
+        "ov_write_score": 0.3772961497306824,
+        "qk_read_score": 3.5511319637298584,
+        "combined_score": 1.1740555147761917,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/12541",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/26066"
+      },
+      {
+        "ov_dest_feat": 36184,
+        "qk_key_feat": 26066,
+        "cosine_similarity": 0.41608476638793945,
+        "ov_write_score": 0.6978457570075989,
+        "qk_read_score": 3.5511319637298584,
+        "combined_score": 1.031117290538383,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/36184",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/26066"
+      },
+      {
+        "ov_dest_feat": 22024,
+        "qk_key_feat": 2651,
+        "cosine_similarity": 0.8520771861076355,
+        "ov_write_score": 0.466511994600296,
+        "qk_read_score": 1.0314654111862183,
+        "combined_score": 0.41001186161557435,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/22024",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/2651"
+      },
+      {
+        "ov_dest_feat": 64043,
+        "qk_key_feat": 2651,
+        "cosine_similarity": 0.40817809104919434,
+        "ov_write_score": 0.7020622491836548,
+        "qk_read_score": 1.0314654111862183,
+        "combined_score": 0.29558335917973955,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/64043",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/2651"
+      },
+      {
+        "ov_dest_feat": 46953,
+        "qk_key_feat": 41459,
+        "cosine_similarity": 0.6354309320449829,
+        "ov_write_score": 0.38766464591026306,
+        "qk_read_score": 0.5091568827629089,
+        "combined_score": 0.12542270617661566,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/46953",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/41459"
+      },
+      {
+        "ov_dest_feat": 44352,
+        "qk_key_feat": 41459,
+        "cosine_similarity": 0.35877686738967896,
+        "ov_write_score": 0.5127077102661133,
+        "qk_read_score": 0.5091568827629089,
+        "combined_score": 0.09365822030158824,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/44352",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/41459"
+      }
+    ],
+    "n_matches_above_threshold": 11,
+    "n_bidirectional": 7,
+    "n_ov_dest_features": 111,
+    "n_qk_key_features": 26,
+    "sae_layer_ov_dest": 12,
+    "sae_layer_qk_key": 16,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      12,
+      6
+    ],
+    "si_head": [
+      17,
+      3
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 63865,
+        "qk_key_feat": 21905,
+        "cosine_similarity": 0.8481359481811523,
+        "ov_write_score": 2.5982625484466553,
+        "qk_read_score": 5.839766502380371,
+        "combined_score": 12.868975887674122,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/63865",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/15-gemmascope-res-16k/21905"
+      },
+      {
+        "ov_dest_feat": 53758,
+        "qk_key_feat": 46131,
+        "cosine_similarity": 0.9543408751487732,
+        "ov_write_score": 1.9837194681167603,
+        "qk_read_score": 2.0165774822235107,
+        "combined_score": 3.81767271701404,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/53758",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/15-gemmascope-res-16k/46131"
+      },
+      {
+        "ov_dest_feat": 47279,
+        "qk_key_feat": 46131,
+        "cosine_similarity": 0.6513537764549255,
+        "ov_write_score": 1.326136589050293,
+        "qk_read_score": 2.0165774822235107,
+        "combined_score": 1.7418875159003708,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/47279",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/15-gemmascope-res-16k/46131"
+      },
+      {
+        "ov_dest_feat": 19660,
+        "qk_key_feat": 36202,
+        "cosine_similarity": 0.3072258532047272,
+        "ov_write_score": 1.9877853393554688,
+        "qk_read_score": 2.5936942100524902,
+        "combined_score": 1.5839665819547482,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/19660",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/15-gemmascope-res-16k/36202"
+      },
+      {
+        "ov_dest_feat": 9679,
+        "qk_key_feat": 41210,
+        "cosine_similarity": 0.30317139625549316,
+        "ov_write_score": 2.3543336391448975,
+        "qk_read_score": 1.4958726167678833,
+        "combined_score": 1.0677039365811256,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/9679",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/15-gemmascope-res-16k/41210"
+      },
+      {
+        "ov_dest_feat": 22024,
+        "qk_key_feat": 45279,
+        "cosine_similarity": 0.72984778881073,
+        "ov_write_score": 0.466511994600296,
+        "qk_read_score": 2.0490636825561523,
+        "combined_score": 0.6976708328750414,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/22024",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/15-gemmascope-res-16k/45279"
+      },
+      {
+        "ov_dest_feat": 12541,
+        "qk_key_feat": 46331,
+        "cosine_similarity": 0.7491923570632935,
+        "ov_write_score": 0.3772961497306824,
+        "qk_read_score": 1.7870213985443115,
+        "combined_score": 0.5051326776879914,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/12541",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/15-gemmascope-res-16k/46331"
+      },
+      {
+        "ov_dest_feat": 36184,
+        "qk_key_feat": 46331,
+        "cosine_similarity": 0.37275341153144836,
+        "ov_write_score": 0.6978457570075989,
+        "qk_read_score": 1.7870213985443115,
+        "combined_score": 0.4648478452219904,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/36184",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/15-gemmascope-res-16k/46331"
+      },
+      {
+        "ov_dest_feat": 64043,
+        "qk_key_feat": 45279,
+        "cosine_similarity": 0.3157351016998291,
+        "ov_write_score": 0.7020622491836548,
+        "qk_read_score": 2.0490636825561523,
+        "combined_score": 0.454207126615969,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/64043",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/15-gemmascope-res-16k/45279"
+      },
+      {
+        "ov_dest_feat": 46953,
+        "qk_key_feat": 51375,
+        "cosine_similarity": 0.8631821870803833,
+        "ov_write_score": 0.38766464591026306,
+        "qk_read_score": 1.356866717338562,
+        "combined_score": 0.4540418196081402,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/46953",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/15-gemmascope-res-16k/51375"
+      },
+      {
+        "ov_dest_feat": 15153,
+        "qk_key_feat": 9735,
+        "cosine_similarity": 0.7479983568191528,
+        "ov_write_score": 0.7323463559150696,
+        "qk_read_score": 0.48764654994010925,
+        "combined_score": 0.26712979119686103,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/15153",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/15-gemmascope-res-16k/9735"
+      },
+      {
+        "ov_dest_feat": 12512,
+        "qk_key_feat": 9735,
+        "cosine_similarity": 0.3321644067764282,
+        "ov_write_score": 0.6584736704826355,
+        "qk_read_score": 0.48764654994010925,
+        "combined_score": 0.10665879274029894,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/12512",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/15-gemmascope-res-16k/9735"
+      }
+    ],
+    "n_matches_above_threshold": 12,
+    "n_bidirectional": 8,
+    "n_ov_dest_features": 111,
+    "n_qk_key_features": 27,
+    "sae_layer_ov_dest": 12,
+    "sae_layer_qk_key": 15,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      12,
+      6
+    ],
+    "si_head": [
+      16,
+      6
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 53758,
+        "qk_key_feat": 42507,
+        "cosine_similarity": 0.9306744337081909,
+        "ov_write_score": 1.9837194681167603,
+        "qk_read_score": 2.2256979942321777,
+        "combined_score": 4.109076943444008,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/53758",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/42507"
+      },
+      {
+        "ov_dest_feat": 63865,
+        "qk_key_feat": 9150,
+        "cosine_similarity": 0.7175629138946533,
+        "ov_write_score": 2.5982625484466553,
+        "qk_read_score": 1.758989691734314,
+        "combined_score": 3.2794900120255264,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/63865",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/9150"
+      },
+      {
+        "ov_dest_feat": 47279,
+        "qk_key_feat": 42507,
+        "cosine_similarity": 0.6586030125617981,
+        "ov_write_score": 1.326136589050293,
+        "qk_read_score": 2.2256979942321777,
+        "combined_score": 1.943919181026839,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/47279",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/42507"
+      },
+      {
+        "ov_dest_feat": 9679,
+        "qk_key_feat": 15618,
+        "cosine_similarity": 0.5270702242851257,
+        "ov_write_score": 2.3543336391448975,
+        "qk_read_score": 0.906690776348114,
+        "combined_score": 1.1251118220484504,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/9679",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/15618"
+      },
+      {
+        "ov_dest_feat": 19660,
+        "qk_key_feat": 52932,
+        "cosine_similarity": 0.350351482629776,
+        "ov_write_score": 1.9877853393554688,
+        "qk_read_score": 1.334000825881958,
+        "combined_score": 0.929029578581394,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/19660",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/52932"
+      },
+      {
+        "ov_dest_feat": 12541,
+        "qk_key_feat": 26066,
+        "cosine_similarity": 0.8762730360031128,
+        "ov_write_score": 0.3772961497306824,
+        "qk_read_score": 2.047614574432373,
+        "combined_score": 0.6769709511790225,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/12541",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/26066"
+      },
+      {
+        "ov_dest_feat": 36184,
+        "qk_key_feat": 26066,
+        "cosine_similarity": 0.41608476638793945,
+        "ov_write_score": 0.6978457570075989,
+        "qk_read_score": 2.047614574432373,
+        "combined_score": 0.5945514877002824,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/36184",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/26066"
+      },
+      {
+        "ov_dest_feat": 22024,
+        "qk_key_feat": 2651,
+        "cosine_similarity": 0.8520771861076355,
+        "ov_write_score": 0.466511994600296,
+        "qk_read_score": 0.5596690773963928,
+        "combined_score": 0.2224708243469522,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/22024",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/2651"
+      },
+      {
+        "ov_dest_feat": 15153,
+        "qk_key_feat": 5458,
+        "cosine_similarity": 0.8159992098808289,
+        "ov_write_score": 0.7323463559150696,
+        "qk_read_score": 0.3364439904689789,
+        "combined_score": 0.20105692611756457,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/15153",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/5458"
+      },
+      {
+        "ov_dest_feat": 46953,
+        "qk_key_feat": 41459,
+        "cosine_similarity": 0.6354309320449829,
+        "ov_write_score": 0.38766464591026306,
+        "qk_read_score": 0.6880306601524353,
+        "combined_score": 0.16948541844417192,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/46953",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/41459"
+      },
+      {
+        "ov_dest_feat": 64043,
+        "qk_key_feat": 2651,
+        "cosine_similarity": 0.40817809104919434,
+        "ov_write_score": 0.7020622491836548,
+        "qk_read_score": 0.5596690773963928,
+        "combined_score": 0.16038236874623157,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/64043",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/2651"
+      },
+      {
+        "ov_dest_feat": 44352,
+        "qk_key_feat": 41459,
+        "cosine_similarity": 0.35877686738967896,
+        "ov_write_score": 0.5127077102661133,
+        "qk_read_score": 0.6880306601524353,
+        "combined_score": 0.1265616341924432,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/44352",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/41459"
+      },
+      {
+        "ov_dest_feat": 12512,
+        "qk_key_feat": 5458,
+        "cosine_similarity": 0.3042844533920288,
+        "ov_write_score": 0.6584736704826355,
+        "qk_read_score": 0.3364439904689789,
+        "combined_score": 0.06741102849693706,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/12-gemmascope-res-16k/12512",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/5458"
+      }
+    ],
+    "n_matches_above_threshold": 13,
+    "n_bidirectional": 8,
+    "n_ov_dest_features": 111,
+    "n_qk_key_features": 25,
+    "sae_layer_ov_dest": 12,
+    "sae_layer_qk_key": 16,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      12,
+      6
+    ],
+    "si_head": [
+      17,
+      7
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 23210,
+        "qk_key_feat": 46921,
+        "cosine_similarity": 0.348415344953537,
+        "ov_write_score": 0.7006340622901917,
+        "qk_read_score": 0.36098137497901917,
+        "combined_score": 0.08811976213339044,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/23210",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/46921"
+      }
+    ],
+    "n_matches_above_threshold": 1,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 47,
+    "n_qk_key_features": 38,
+    "sae_layer_ov_dest": 3,
+    "sae_layer_qk_key": 13,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      3,
+      2
+    ],
+    "si_head": [
+      14,
+      0
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 23210,
+        "qk_key_feat": 59015,
+        "cosine_similarity": 0.3497251272201538,
+        "ov_write_score": 0.7006340622901917,
+        "qk_read_score": 1.0234125852584839,
+        "combined_score": 0.2507661068024668,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/23210",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/11-gemmascope-res-16k/59015"
+      }
+    ],
+    "n_matches_above_threshold": 1,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 47,
+    "n_qk_key_features": 24,
+    "sae_layer_ov_dest": 3,
+    "sae_layer_qk_key": 11,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      3,
+      2
+    ],
+    "si_head": [
+      12,
+      1
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 23210,
+        "qk_key_feat": 46921,
+        "cosine_similarity": 0.348415344953537,
+        "ov_write_score": 0.7006340622901917,
+        "qk_read_score": 0.5438024401664734,
+        "combined_score": 0.1327485155648601,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/23210",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/13-gemmascope-res-16k/46921"
+      }
+    ],
+    "n_matches_above_threshold": 1,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 47,
+    "n_qk_key_features": 31,
+    "sae_layer_ov_dest": 3,
+    "sae_layer_qk_key": 13,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      3,
+      2
+    ],
+    "si_head": [
+      14,
+      1
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 23210,
+        "qk_key_feat": 19660,
+        "cosine_similarity": 0.3547358214855194,
+        "ov_write_score": 0.7006340622901917,
+        "qk_read_score": 0.27457213401794434,
+        "combined_score": 0.06824215809196393,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/23210",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/14-gemmascope-res-16k/19660"
+      }
+    ],
+    "n_matches_above_threshold": 1,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 47,
+    "n_qk_key_features": 42,
+    "sae_layer_ov_dest": 3,
+    "sae_layer_qk_key": 14,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      3,
+      2
+    ],
+    "si_head": [
+      15,
+      0
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 10922,
+        "qk_key_feat": 42507,
+        "cosine_similarity": 0.7617939710617065,
+        "ov_write_score": 0.800636351108551,
+        "qk_read_score": 1.9346712827682495,
+        "combined_score": 1.1799946029349944,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/10922",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/42507"
+      },
+      {
+        "ov_dest_feat": 5033,
+        "qk_key_feat": 42507,
+        "cosine_similarity": 0.4718763828277588,
+        "ov_write_score": 0.6954032182693481,
+        "qk_read_score": 1.9346712827682495,
+        "combined_score": 0.6348514606925326,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/5033",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/42507"
+      }
+    ],
+    "n_matches_above_threshold": 2,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 47,
+    "n_qk_key_features": 26,
+    "sae_layer_ov_dest": 3,
+    "sae_layer_qk_key": 16,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      3,
+      2
+    ],
+    "si_head": [
+      17,
+      3
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 10922,
+        "qk_key_feat": 46131,
+        "cosine_similarity": 0.7811520099639893,
+        "ov_write_score": 0.800636351108551,
+        "qk_read_score": 2.0165774822235107,
+        "combined_score": 1.2612052571346233,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/10922",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/15-gemmascope-res-16k/46131"
+      },
+      {
+        "ov_dest_feat": 5033,
+        "qk_key_feat": 46131,
+        "cosine_similarity": 0.48537829518318176,
+        "ov_write_score": 0.6954032182693481,
+        "qk_read_score": 2.0165774822235107,
+        "combined_score": 0.6806627148240479,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/5033",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/15-gemmascope-res-16k/46131"
+      },
+      {
+        "ov_dest_feat": 50706,
+        "qk_key_feat": 46131,
+        "cosine_similarity": 0.31142091751098633,
+        "ov_write_score": 0.9707522988319397,
+        "qk_read_score": 2.0165774822235107,
+        "combined_score": 0.6096367244375641,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/50706",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/15-gemmascope-res-16k/46131"
+      }
+    ],
+    "n_matches_above_threshold": 3,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 47,
+    "n_qk_key_features": 27,
+    "sae_layer_ov_dest": 3,
+    "sae_layer_qk_key": 15,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      3,
+      2
+    ],
+    "si_head": [
+      16,
+      6
+    ]
+  },
+  {
+    "matches": [
+      {
+        "ov_dest_feat": 10922,
+        "qk_key_feat": 42507,
+        "cosine_similarity": 0.7617939710617065,
+        "ov_write_score": 0.800636351108551,
+        "qk_read_score": 2.2256979942321777,
+        "combined_score": 1.3574975988682274,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/10922",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/42507"
+      },
+      {
+        "ov_dest_feat": 5033,
+        "qk_key_feat": 42507,
+        "cosine_similarity": 0.4718763828277588,
+        "ov_write_score": 0.6954032182693481,
+        "qk_read_score": 2.2256979942321777,
+        "combined_score": 0.7303502332845642,
+        "ov_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/3-gemmascope-res-16k/5033",
+        "qk_neuronpedia": "https://www.neuronpedia.org/gemma-2-2b/16-gemmascope-res-16k/42507"
+      }
+    ],
+    "n_matches_above_threshold": 2,
+    "n_bidirectional": 1,
+    "n_ov_dest_features": 47,
+    "n_qk_key_features": 25,
+    "sae_layer_ov_dest": 3,
+    "sae_layer_qk_key": 16,
+    "cos_threshold": 0.3,
+    "same_layer": false,
+    "method": "cosine_similarity",
+    "sa_head": [
+      3,
+      2
+    ],
+    "si_head": [
+      17,
+      7
+    ]
+  }
+]
