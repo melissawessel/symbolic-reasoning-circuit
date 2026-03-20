@@ -1,0 +1,70 @@
+{
+  "n_shot": 4,
+  "rule": "ABA",
+  "n_pairs": 54,
+  "position_mode": "all",
+  "patch_positions": null,
+  "mean_baseline_prob": 0.15020138449552986,
+  "top_rescue_heads": [
+    {
+      "layer": 14,
+      "head": 0,
+      "flip_rate": 0.40740740299224854,
+      "mean_prob_delta": 0.08168821036815643
+    },
+    {
+      "layer": 12,
+      "head": 1,
+      "flip_rate": 0.3888888955116272,
+      "mean_prob_delta": 0.0527164489030838
+    },
+    {
+      "layer": 7,
+      "head": 5,
+      "flip_rate": 0.29629629850387573,
+      "mean_prob_delta": 0.04470410197973251
+    },
+    {
+      "layer": 14,
+      "head": 1,
+      "flip_rate": 0.2777777910232544,
+      "mean_prob_delta": 0.04592076689004898
+    },
+    {
+      "layer": 13,
+      "head": 4,
+      "flip_rate": 0.2777777910232544,
+      "mean_prob_delta": 0.03643682226538658
+    },
+    {
+      "layer": 5,
+      "head": 7,
+      "flip_rate": 0.25925925374031067,
+      "mean_prob_delta": 0.03523021191358566
+    },
+    {
+      "layer": 8,
+      "head": 2,
+      "flip_rate": 0.25925925374031067,
+      "mean_prob_delta": 0.03893277049064636
+    },
+    {
+      "layer": 6,
+      "head": 7,
+      "flip_rate": 0.25925925374031067,
+      "mean_prob_delta": 0.034822676330804825
+    },
+    {
+      "layer": 1,
+      "head": 1,
+      "flip_rate": 0.24074074625968933,
+      "mean_prob_delta": 0.02326280064880848
+    },
+    {
+      "layer": 17,
+      "head": 0,
+      "flip_rate": 0.24074074625968933,
+      "mean_prob_delta": 0.010412498377263546
+    }
+  ]
+}

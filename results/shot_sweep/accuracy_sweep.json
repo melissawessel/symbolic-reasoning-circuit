@@ -1,0 +1,224 @@
+{
+  "model": "gemma-2-2b",
+  "shot_counts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    10
+  ],
+  "n_per_rule": 500,
+  "results": {
+    "1": {
+      "ABA": {
+        "accuracy": 0.188,
+        "correct": 94,
+        "total": 500,
+        "ci_95_low": 0.15617996413496651,
+        "ci_95_high": 0.2245776243130421,
+        "mean_prob": 0.0608312284152409,
+        "median_prob": 0.01932981237769127,
+        "prob_above_50": 0,
+        "prob_above_70": 0,
+        "prob_above_90": 0
+      },
+      "ABB": {
+        "accuracy": 0.496,
+        "correct": 248,
+        "total": 500,
+        "ci_95_low": 0.4523731491140454,
+        "ci_95_high": 0.539687845609647,
+        "mean_prob": 0.15879548784636655,
+        "median_prob": 0.11065959557890892,
+        "prob_above_50": 19,
+        "prob_above_70": 5,
+        "prob_above_90": 0
+      }
+    },
+    "2": {
+      "ABA": {
+        "accuracy": 0.502,
+        "correct": 251,
+        "total": 500,
+        "ci_95_low": 0.4583263632298622,
+        "ci_95_high": 0.5456431394082917,
+        "mean_prob": 0.20207127961568971,
+        "median_prob": 0.1412404254078865,
+        "prob_above_50": 56,
+        "prob_above_70": 11,
+        "prob_above_90": 2
+      },
+      "ABB": {
+        "accuracy": 0.88,
+        "correct": 440,
+        "total": 500,
+        "ci_95_low": 0.8485804013755894,
+        "ci_95_high": 0.9056250998736309,
+        "mean_prob": 0.4473699650152994,
+        "median_prob": 0.47459128499031067,
+        "prob_above_50": 230,
+        "prob_above_70": 84,
+        "prob_above_90": 4
+      }
+    },
+    "3": {
+      "ABA": {
+        "accuracy": 0.764,
+        "correct": 382,
+        "total": 500,
+        "ci_95_low": 0.7248556437078593,
+        "ci_95_high": 0.7991187045284411,
+        "mean_prob": 0.44249014059174485,
+        "median_prob": 0.43270865082740784,
+        "prob_above_50": 218,
+        "prob_above_70": 117,
+        "prob_above_90": 18
+      },
+      "ABB": {
+        "accuracy": 0.92,
+        "correct": 460,
+        "total": 500,
+        "ci_95_low": 0.8928936834221488,
+        "ci_95_high": 0.9407018705901475,
+        "mean_prob": 0.621248702253215,
+        "median_prob": 0.684176504611969,
+        "prob_above_50": 363,
+        "prob_above_70": 236,
+        "prob_above_90": 35
+      }
+    },
+    "4": {
+      "ABA": {
+        "accuracy": 0.926,
+        "correct": 463,
+        "total": 500,
+        "ci_95_low": 0.8996652466777695,
+        "ci_95_high": 0.945838815248988,
+        "mean_prob": 0.6377088327892124,
+        "median_prob": 0.6904649138450623,
+        "prob_above_50": 362,
+        "prob_above_70": 244,
+        "prob_above_90": 72
+      },
+      "ABB": {
+        "accuracy": 0.964,
+        "correct": 482,
+        "total": 500,
+        "ci_95_low": 0.9438156730319722,
+        "ci_95_high": 0.9771089390197072,
+        "mean_prob": 0.7417550857178867,
+        "median_prob": 0.8049191534519196,
+        "prob_above_50": 437,
+        "prob_above_70": 345,
+        "prob_above_90": 111
+      }
+    },
+    "5": {
+      "ABA": {
+        "accuracy": 0.944,
+        "correct": 472,
+        "total": 500,
+        "ci_95_low": 0.920255206353293,
+        "ci_95_high": 0.9609743793168485,
+        "mean_prob": 0.7376124831315246,
+        "median_prob": 0.8103750348091125,
+        "prob_above_50": 418,
+        "prob_above_70": 330,
+        "prob_above_90": 155
+      },
+      "ABB": {
+        "accuracy": 0.954,
+        "correct": 477,
+        "total": 500,
+        "ci_95_low": 0.9319222072317267,
+        "ci_95_high": 0.9691548916291838,
+        "mean_prob": 0.806148432996124,
+        "median_prob": 0.8840821385383606,
+        "prob_above_50": 450,
+        "prob_above_70": 403,
+        "prob_above_90": 223
+      }
+    },
+    "6": {
+      "ABA": {
+        "accuracy": 0.974,
+        "correct": 487,
+        "total": 500,
+        "ci_95_low": 0.9560285091657758,
+        "ci_95_high": 0.9847436160766728,
+        "mean_prob": 0.8340304679442198,
+        "median_prob": 0.9000131189823151,
+        "prob_above_50": 468,
+        "prob_above_70": 420,
+        "prob_above_90": 250
+      },
+      "ABB": {
+        "accuracy": 0.984,
+        "correct": 492,
+        "total": 500,
+        "ci_95_low": 0.9687488914666058,
+        "ci_95_high": 0.9918707469666117,
+        "mean_prob": 0.8641205383166671,
+        "median_prob": 0.9186926484107971,
+        "prob_above_50": 478,
+        "prob_above_70": 444,
+        "prob_above_90": 288
+      }
+    },
+    "8": {
+      "ABA": {
+        "accuracy": 0.986,
+        "correct": 493,
+        "total": 500,
+        "ci_95_low": 0.9713869308622147,
+        "ci_95_high": 0.9932022102091564,
+        "mean_prob": 0.9052093390452792,
+        "median_prob": 0.956185907125473,
+        "prob_above_50": 485,
+        "prob_above_70": 468,
+        "prob_above_90": 370
+      },
+      "ABB": {
+        "accuracy": 0.986,
+        "correct": 493,
+        "total": 500,
+        "ci_95_low": 0.9713869308622147,
+        "ci_95_high": 0.9932022102091564,
+        "mean_prob": 0.9151344390958548,
+        "median_prob": 0.9608622491359711,
+        "prob_above_50": 490,
+        "prob_above_70": 466,
+        "prob_above_90": 385
+      }
+    },
+    "10": {
+      "ABA": {
+        "accuracy": 0.988,
+        "correct": 494,
+        "total": 500,
+        "ci_95_low": 0.9740696388835527,
+        "ci_95_high": 0.9944890048259724,
+        "mean_prob": 0.9307008698059944,
+        "median_prob": 0.9727186560630798,
+        "prob_above_50": 490,
+        "prob_above_70": 478,
+        "prob_above_90": 417
+      },
+      "ABB": {
+        "accuracy": 0.992,
+        "correct": 496,
+        "total": 500,
+        "ci_95_low": 0.9796129641658948,
+        "ci_95_high": 0.9968846848199377,
+        "mean_prob": 0.9390382668590174,
+        "median_prob": 0.978105753660202,
+        "prob_above_50": 491,
+        "prob_above_70": 481,
+        "prob_above_90": 432
+      }
+    }
+  }
+}

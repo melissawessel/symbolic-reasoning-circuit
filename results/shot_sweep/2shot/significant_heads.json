@@ -1,0 +1,164 @@
+{
+  "symbol_abstraction_base_aba": [
+    {
+      "layer": 8,
+      "head": 1,
+      "score": 0.7627550959587097
+    },
+    {
+      "layer": 6,
+      "head": 1,
+      "score": 0.6466836929321289
+    },
+    {
+      "layer": 6,
+      "head": 2,
+      "score": 0.6122449040412903
+    },
+    {
+      "layer": 10,
+      "head": 4,
+      "score": 0.32397958636283875
+    },
+    {
+      "layer": 8,
+      "head": 2,
+      "score": 0.28698980808258057
+    }
+  ],
+  "symbolic_induction_base_aba": [
+    {
+      "layer": 14,
+      "head": 0,
+      "score": 2.9285714626312256
+    },
+    {
+      "layer": 12,
+      "head": 1,
+      "score": 1.3125
+    },
+    {
+      "layer": 22,
+      "head": 4,
+      "score": 1.1798468828201294
+    },
+    {
+      "layer": 17,
+      "head": 0,
+      "score": 0.9910714030265808
+    },
+    {
+      "layer": 15,
+      "head": 0,
+      "score": 0.8890306353569031
+    }
+  ],
+  "symbol_abstraction_base_abb": [
+    {
+      "layer": 6,
+      "head": 1,
+      "score": 1.4487500190734863
+    },
+    {
+      "layer": 8,
+      "head": 1,
+      "score": 1.003749966621399
+    },
+    {
+      "layer": 6,
+      "head": 2,
+      "score": 0.643750011920929
+    },
+    {
+      "layer": 10,
+      "head": 4,
+      "score": 0.6112499833106995
+    }
+  ],
+  "symbolic_induction_base_abb": [
+    {
+      "layer": 14,
+      "head": 0,
+      "score": 2.528749942779541
+    },
+    {
+      "layer": 12,
+      "head": 1,
+      "score": 1.847499966621399
+    },
+    {
+      "layer": 15,
+      "head": 0,
+      "score": 0.9012500047683716
+    },
+    {
+      "layer": 23,
+      "head": 5,
+      "score": 0.8587499856948853
+    },
+    {
+      "layer": 14,
+      "head": 1,
+      "score": 0.7637500166893005
+    }
+  ],
+  "retrieval_base_aba": [
+    {
+      "layer": 18,
+      "head": 6,
+      "score": 2.5416667461395264
+    },
+    {
+      "layer": 22,
+      "head": 4,
+      "score": 1.3515625
+    },
+    {
+      "layer": 25,
+      "head": 4,
+      "score": 1.2552083730697632
+    }
+  ],
+  "retrieval_base_abb": [
+    {
+      "layer": 18,
+      "head": 6,
+      "score": 2.426666736602783
+    },
+    {
+      "layer": 22,
+      "head": 4,
+      "score": 1.909999966621399
+    },
+    {
+      "layer": 17,
+      "head": 0,
+      "score": 1.8250000476837158
+    },
+    {
+      "layer": 20,
+      "head": 7,
+      "score": 1.2708333730697632
+    },
+    {
+      "layer": 20,
+      "head": 3,
+      "score": 0.9275000095367432
+    },
+    {
+      "layer": 24,
+      "head": 5,
+      "score": 0.9266666769981384
+    },
+    {
+      "layer": 19,
+      "head": 1,
+      "score": 0.7325000166893005
+    },
+    {
+      "layer": 16,
+      "head": 3,
+      "score": 0.7241666913032532
+    }
+  ]
+}
