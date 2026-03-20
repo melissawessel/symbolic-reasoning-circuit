@@ -15,6 +15,15 @@ Key findings:
 - Symbolic Induction heads carry transferable abstract rule information and are the primary bottleneck. Retrieval heads carry token-specific information that hurts when transplanted.
 - The single strongest rescuer is **L14H0** (SI), flipping 41% of failures at 4-shot.
 
+### 02 — [Through the Eyes of a Symbolic Induction Head](https://melissawessel6.substack.com/p/through-the-eyes-of-a-symbolic-induction)
+
+Uses [Kamath et al. (2025)](https://transformer-circuits.pub/2025/attention-qk/index.html)'s QK attribution method with Gemma Scope residual stream SAEs (65k width) to decompose L14H0's attention into feature-feature interactions. Identifies rule-general structural features shared across ABA/ABB and rule-specific features that differentiate them.
+
+Key findings:
+- Top shared features encode structured/tabular data navigation — multilingual across human and programming languages.
+- ABA-specific: key feature 4958 ("first token after a pattern delimiter") responds to query feature 22496 ("^" delimiter).
+- ABB-specific: key feature 16986 ("second element of a compound expression") responds to the same query feature.
+
 ## Setup
 
 Requires Python 3.11 or 3.12 (TransformerLens constraint).
@@ -47,6 +56,23 @@ Figures:
 jupyter notebook posts/01-circuit-tracking/notebooks/publication_figures.ipynb
 ```
 
+### Post 02
+
+```bash
+# 1. Generate evaluated prompts (~5 min per rule on MPS)
+python posts/02-qk-attribution/scripts/01_generate_eval_prompts.py --shots 10 --rules ABA ABB
+
+# 2. QK/OV attribution for all significant heads (~30 min per rule on MPS)
+python posts/02-qk-attribution/scripts/02_qk_attribution.py --shots 10 --width 65k --rule ABA
+python posts/02-qk-attribution/scripts/02_qk_attribution.py --shots 10 --width 65k --rule ABB
+```
+
+Interactive explorer:
+```bash
+pip install marimo
+marimo edit posts/02-qk-attribution/notebooks/qk_feature_explorer.py
+```
+
 ## Repository structure
 
 ```
@@ -55,25 +81,38 @@ src/                        Shared source modules
 ├── model_utils.py          TransformerLens model loading and inference helpers
 ├── prompt_generation.py    ABA/ABB prompt generation and CMA context pairs
 ├── cma.py                  Causal mediation analysis and rescue patching
-└── stats.py                Significance testing (permutation test + Wilcoxon/FDR)
+├── stats.py                Significance testing (permutation test + Wilcoxon/FDR)
+└── qk_ov_attribution.py    QK/OV feature attribution using Gemma Scope SAEs
 
 posts/
-└── 01-circuit-tracking/
-    ├── scripts/            Experiment scripts (numbered in order)
-    │   ├── 01_accuracy_sweep.py
-    │   ├── 02_cma_sweep.py
-    │   └── 03_rescue_patching.py
-    ├── notebooks/
-    │   └── publication_figures.ipynb
-    └── figures/            Generated publication figures (PNG + PDF)
+├── 01-circuit-tracking/
+│   ├── scripts/            Experiment scripts (numbered in order)
+│   │   ├── 01_accuracy_sweep.py
+│   │   ├── 02_cma_sweep.py
+│   │   └── 03_rescue_patching.py
+│   ├── notebooks/
+│   │   └── publication_figures.ipynb
+│   └── figures/            Generated publication figures (PNG + PDF)
+└── 02-qk-attribution/
+    ├── scripts/
+    │   ├── 01_generate_eval_prompts.py
+    │   └── 02_qk_attribution.py
+    └── notebooks/
+        └── qk_feature_explorer.py   Interactive marimo notebook
 
-results/                    Pre-computed results
-└── shot_sweep/
-    ├── accuracy_sweep.json
-    ├── {2,4,10}shot/
-    │   ├── significant_heads.json
-    │   └── cma/
-    └── {2,4}shot/rescue/
+results/
+├── shot_sweep/
+│   ├── accuracy_sweep.json
+│   ├── {2,4,10}shot/
+│   │   ├── significant_heads.json
+│   │   └── cma/
+│   └── {2,4}shot/rescue/
+└── qk_ov_attribution/
+    └── width_{16k,65k}/{aba,abb}/
+        ├── qk/             Per-head QK feature interactions
+        ├── ov/             Per-head OV output features
+        ├── validation/     Reconstruction correlation
+        └── handoff_*.json  Cross-stage feature overlap
 
 data/vocab/                 English vocabulary list (~72K tokens from Yang et al.)
 ```
@@ -81,6 +120,8 @@ data/vocab/                 English vocabulary list (~72K tokens from Yang et al
 ## Acknowledgments
 
 This project builds on [Yang et al. (2025)](https://arxiv.org/abs/2502.20332) and their [codebase](https://github.com/yukang123/LLMSymbMech). The vocabulary file (`data/vocab/gemma2_english_vocab.txt`) is from their repository. The CMA and permutation test implementations are independent reimplementations of their published methods using TransformerLens.
+
+The QK attribution method used in post 02 is from [Kamath et al. (2025), "Tracing Attention Computation Through Feature Interactions"](https://transformer-circuits.pub/2025/attention-qk/index.html). SAE features are from [Gemma Scope](https://huggingface.co/google/gemma-scope) via [Neuronpedia](https://www.neuronpedia.org/).
 
 If you build on this work, please cite the original paper:
 
