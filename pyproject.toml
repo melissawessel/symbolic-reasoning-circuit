@@ -1,0 +1,28 @@
+[project]
+name = "symbolic-reasoning-circuit"
+version = "0.1.0"
+description = "Mechanistic analysis of symbolic reasoning circuits in gemma-2-2b — companion code for a series of interpretability posts"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "torch>=2.1.0",
+    "transformer-lens>=2.13.0",
+    "transformers>=4.46.3",
+    "sae-lens",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "statsmodels",
+    "scipy",
+    "tqdm",
+    "psutil",
+    "einops",
+    "jaxtyping",
+    "ipykernel",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["src*"]
