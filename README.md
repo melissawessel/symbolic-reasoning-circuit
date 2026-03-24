@@ -67,10 +67,19 @@ python posts/02-qk-attribution/scripts/02_qk_attribution.py --shots 10 --width 6
 python posts/02-qk-attribution/scripts/02_qk_attribution.py --shots 10 --width 65k --rule ABB
 ```
 
-Interactive explorer:
+Causal validation (suppression + rescue on individual SAE features):
+```bash
+# 3. Batch causal intervention (~20 min per feature on MPS)
+python posts/02-qk-attribution/scripts/03_batch_causal_intervention.py \
+    --shots 2 --layer 14 --head 0 --feature 4958 --rule ABA --width 65k \
+    --n-correct 100 --n-wrong 100 --min-activation 0.01
+```
+
+Interactive explorers:
 ```bash
 pip install marimo
 marimo edit posts/02-qk-attribution/notebooks/qk_feature_explorer.py
+marimo edit posts/02-qk-attribution/notebooks/qk_feature_causal.py
 ```
 
 ## Repository structure
@@ -82,7 +91,8 @@ src/                        Shared source modules
 ├── prompt_generation.py    ABA/ABB prompt generation and CMA context pairs
 ├── cma.py                  Causal mediation analysis and rescue patching
 ├── stats.py                Significance testing (permutation test + Wilcoxon/FDR)
-└── qk_ov_attribution.py    QK/OV feature attribution using Gemma Scope SAEs
+├── qk_ov_attribution.py    QK/OV feature attribution using Gemma Scope SAEs
+└── causal_feature_intervention.py  SAE feature intervention (suppress/rescue)
 
 posts/
 ├── 01-circuit-tracking/
@@ -96,9 +106,11 @@ posts/
 └── 02-qk-attribution/
     ├── scripts/
     │   ├── 01_generate_eval_prompts.py
-    │   └── 02_qk_attribution.py
+    │   ├── 02_qk_attribution.py
+    │   └── 03_batch_causal_intervention.py
     └── notebooks/
-        └── qk_feature_explorer.py   Interactive marimo notebook
+        ├── qk_feature_explorer.py   Interactive marimo notebook
+        └── qk_feature_causal.py     Causal intervention visualizer
 
 results/
 ├── shot_sweep/
@@ -107,12 +119,14 @@ results/
 │   │   ├── significant_heads.json
 │   │   └── cma/
 │   └── {2,4}shot/rescue/
-└── qk_ov_attribution/
-    └── width_{16k,65k}/{aba,abb}/
-        ├── qk/             Per-head QK feature interactions
-        ├── ov/             Per-head OV output features
-        ├── validation/     Reconstruction correlation
-        └── handoff_*.json  Cross-stage feature overlap
+├── qk_ov_attribution/
+│   └── width_{16k,65k}/{aba,abb}/
+│       ├── qk/             Per-head QK feature interactions
+│       ├── ov/             Per-head OV output features
+│       ├── validation/     Reconstruction correlation
+│       └── handoff_*.json  Cross-stage feature overlap
+└── causal_interventions/
+    └── {2}shot/            Per-feature suppress/rescue batch results
 
 data/vocab/                 English vocabulary list (~72K tokens from Yang et al.)
 ```
